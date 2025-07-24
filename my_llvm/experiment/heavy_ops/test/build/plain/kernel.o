@@ -1,0 +1,4 @@
+	.attribute	4, 16
+	.attribute	5, "rv32i2p1"
+	.file	"LLVMDialectModule"
+	.section	".note.GNU-stack","",@progbits
