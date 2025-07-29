@@ -1,0 +1,5 @@
+#!/bin/bash
+LLVM_BUILD=/home/jueun/park/IREE/llvm-project/mlir-build
+LLVM_PASS=$LLVM_BUILD/lib/CustomOffloadPass.so
+
+$LLVM_BUILD/bin/mlir-opt -load-pass-plugin=$LLVM_PASS -p="custom-offload" "$1" -o "${1%.ll}_custom.mlir"

@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------------------------
+Benchmark                                      Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------
+BM_main/process_time/real_time              10.2 ms         14.2 ms          854 items_per_second=97.8769/s
+BM_main/process_time/real_time              8.25 ms         14.4 ms          854 items_per_second=121.285/s
+BM_main/process_time/real_time              8.57 ms         14.4 ms          854 items_per_second=116.718/s
+BM_main/process_time/real_time              9.02 ms         14.3 ms          854 items_per_second=110.826/s
+BM_main/process_time/real_time              10.2 ms         14.2 ms          854 items_per_second=97.6129/s
+BM_main/process_time/real_time              8.94 ms         14.4 ms          854 items_per_second=111.909/s
+BM_main/process_time/real_time              8.67 ms         14.4 ms          854 items_per_second=115.398/s
+BM_main/process_time/real_time              8.36 ms         14.4 ms          854 items_per_second=119.632/s
+BM_main/process_time/real_time              10.1 ms         14.2 ms          854 items_per_second=98.934/s
+BM_main/process_time/real_time              8.93 ms         14.3 ms          854 items_per_second=112.045/s
+BM_main/process_time/real_time_mean         9.13 ms         14.3 ms           10 items_per_second=110.224/s
+BM_main/process_time/real_time_median       8.93 ms         14.4 ms           10 items_per_second=111.977/s
+BM_main/process_time/real_time_stddev      0.773 ms        0.071 ms           10 items_per_second=8.977/s
+BM_main/process_time/real_time_cv           8.47 %          0.50 %            10 items_per_second=8.14%

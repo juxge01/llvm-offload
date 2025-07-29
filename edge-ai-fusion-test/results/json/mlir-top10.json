@@ -1,0 +1,514 @@
+{
+  "dispatches": [
+    {
+      "name": "main_dispatch_5_matmul_12544x96x16",
+      "total_flops": 231211008,
+      "total_bytes": 20076928,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_69_matmul_49x1280x320",
+      "total_flops": 160563200,
+      "total_bytes": 2709760,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_9_matmul_3136x144x24",
+      "total_flops": 130056192,
+      "total_bytes": 7540800,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_45_matmul_196x576x96",
+      "total_flops": 130056192,
+      "total_bytes": 2105088,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_57_matmul_49x960x160",
+      "total_flops": 90316800,
+      "total_bytes": 1402240,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_1_conv_2d_nhwc_hwcf_1x112x112x32x3x3x3",
+      "total_flops": 57802752,
+      "total_bytes": 7033484,
+      "num_ops": 6
+    },
+    {
+      "name": "main_dispatch_17_matmul_784x192x32",
+      "total_flops": 57802752,
+      "total_bytes": 2534144,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_29_matmul_196x384x64",
+      "total_flops": 57802752,
+      "total_bytes": 1354240,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_68_matmul_49x320x960",
+      "total_flops": 10035200,
+      "total_bytes": 1669120,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_11_depthwise_conv_2d_nhwc_hwc_1x56x56x144x3x3",
+      "total_flops": 8128512,
+      "total_bytes": 9168768,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_3_depthwise_conv_2d_nhwc_hwc_1x112x112x32x3x3",
+      "total_flops": 7225344,
+      "total_bytes": 8087168,
+      "num_ops": 6
+    },
+    {
+      "name": "main_dispatch_4_matmul_12544x16x32",
+      "total_flops": 6422528,
+      "total_bytes": 4818944,
+      "num_ops": 6
+    },
+    {
+      "name": "main_dispatch_7_depthwise_conv_2d_nhwc_hwc_1x56x56x96x3x3",
+      "total_flops": 5419008,
+      "total_bytes": 9724032,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_8_matmul_3136x24x96",
+      "total_flops": 3612672,
+      "total_bytes": 2417664,
+      "num_ops": 6
+    },
+    {
+      "name": "main_dispatch_12_matmul_3136x24x144",
+      "total_flops": 3612672,
+      "total_bytes": 3325440,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_44_matmul_196x96x384",
+      "total_flops": 3612672,
+      "total_bytes": 749952,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_48_matmul_196x96x576",
+      "total_flops": 3612672,
+      "total_bytes": 1049472,
+      "num_ops": 8
+    },
+    {
+      "name": "main_dispatch_19_depthwise_conv_2d_nhwc_hwc_1x28x28x192x3x3",
+      "total_flops": 2709504,
+      "total_bytes": 3107328,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_56_matmul_49x160x576",
+      "total_flops": 2508800,
+      "total_bytes": 607616,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_60_matmul_49x160x960",
+      "total_flops": 2508800,
+      "total_bytes": 960000,
+      "num_ops": 8
+    },
+    {
+      "name": "main_dispatch_15_depthwise_conv_2d_nhwc_hwc_1x28x28x144x3x3",
+      "total_flops": 2032128,
+      "total_bytes": 3683520,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_47_depthwise_conv_2d_nhwc_hwc_1x14x14x576x3x3",
+      "total_flops": 2032128,
+      "total_bytes": 2419200,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_71_matmul_1x1001x1280",
+      "total_flops": 2004002,
+      "total_bytes": 5150260,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_16_matmul_784x32x144",
+      "total_flops": 1605632,
+      "total_bytes": 871424,
+      "num_ops": 6
+    },
+    {
+      "name": "main_dispatch_20_matmul_784x32x192",
+      "total_flops": 1605632,
+      "total_bytes": 1128448,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_24_matmul_784x32x192",
+      "total_flops": 1605632,
+      "total_bytes": 1128448,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_28_matmul_196x64x192",
+      "total_flops": 1605632,
+      "total_bytes": 400384,
+      "num_ops": 6
+    },
+    {
+      "name": "main_dispatch_32_matmul_196x64x384",
+      "total_flops": 1605632,
+      "total_bytes": 650240,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_36_matmul_196x64x384",
+      "total_flops": 1605632,
+      "total_bytes": 650240,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_40_matmul_196x64x384",
+      "total_flops": 1605632,
+      "total_bytes": 650240,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_31_depthwise_conv_2d_nhwc_hwc_1x14x14x384x3x3",
+      "total_flops": 1354752,
+      "total_bytes": 1612800,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_59_depthwise_conv_2d_nhwc_hwc_1x7x7x960x3x3",
+      "total_flops": 846720,
+      "total_bytes": 1102080,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_27_depthwise_conv_2d_nhwc_hwc_1x14x14x192x3x3",
+      "total_flops": 677376,
+      "total_bytes": 1255680,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_55_depthwise_conv_2d_nhwc_hwc_1x7x7x576x3x3",
+      "total_flops": 508032,
+      "total_bytes": 993024,
+      "num_ops": 7
+    },
+    {
+      "name": "main_dispatch_0",
+      "total_flops": 0,
+      "total_bytes": 602112,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_1",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_2",
+      "total_flops": 0,
+      "total_bytes": 1605632,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_3",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_4",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_5",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_6",
+      "total_flops": 0,
+      "total_bytes": 4816896,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_7",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_8",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_9",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_10",
+      "total_flops": 0,
+      "total_bytes": 1806336,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_11",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_12",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_14",
+      "total_flops": 0,
+      "total_bytes": 1806336,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_15",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_16",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_17",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_18",
+      "total_flops": 0,
+      "total_bytes": 602112,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_19",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_20",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_24",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_26",
+      "total_flops": 0,
+      "total_bytes": 602112,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_27",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_28",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_29",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_30",
+      "total_flops": 0,
+      "total_bytes": 301056,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_31",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_32",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_36",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_40",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_44",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_45",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_46",
+      "total_flops": 0,
+      "total_bytes": 451584,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_47",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_48",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_54",
+      "total_flops": 0,
+      "total_bytes": 451584,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_55",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_56",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_57",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_58",
+      "total_flops": 0,
+      "total_bytes": 188160,
+      "num_ops": 1
+    },
+    {
+      "name": "main_dispatch_59",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_60",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_68",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_69",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_70",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_70_pooling_nhwc_sum_1x1x1x1280x7x7",
+      "total_flops": 0,
+      "total_bytes": 271360,
+      "num_ops": 5
+    },
+    {
+      "name": "main_dispatch_71",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_72",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_72_generic_1001",
+      "total_flops": 0,
+      "total_bytes": 4004,
+      "num_ops": 4
+    },
+    {
+      "name": "main_dispatch_73",
+      "total_flops": 0,
+      "total_bytes": 0,
+      "num_ops": 0
+    },
+    {
+      "name": "main_dispatch_73_generic_1x1001",
+      "total_flops": 0,
+      "total_bytes": 52374104,
+      "num_ops": 99
+    }
+  ]
+}

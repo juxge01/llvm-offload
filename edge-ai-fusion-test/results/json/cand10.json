@@ -1,0 +1,168 @@
+[
+  {
+    "ops": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "total_flops": 63579138560.0,
+    "total_bytes": 8832328.0,
+    "gain": 63579129727.672,
+    "op_names": [
+      "CONV_2D",
+      "CONV_2D",
+      "AVERAGE_POOL_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      61,
+      62,
+      63
+    ],
+    "total_flops": 53945346560.0,
+    "total_bytes": 7351368.0,
+    "gain": 53945339208.632,
+    "op_names": [
+      "CONV_2D",
+      "AVERAGE_POOL_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      61,
+      62,
+      63,
+      64
+    ],
+    "total_flops": 53945346560.0,
+    "total_bytes": 7359384.0,
+    "gain": 53945339200.616,
+    "op_names": [
+      "CONV_2D",
+      "AVERAGE_POOL_2D",
+      "CONV_2D",
+      "RESHAPE"
+    ]
+  },
+  {
+    "ops": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "total_flops": 7169347584.0,
+    "total_bytes": 15287584.0,
+    "gain": 7169332296.416,
+    "op_names": [
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "total_flops": 5202925056.0,
+    "total_bytes": 5683776.0,
+    "gain": 5202919372.224,
+    "op_names": [
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "total_flops": 4253519872.0,
+    "total_bytes": 15576352.0,
+    "gain": 4253504295.648,
+    "op_names": [
+      "CONV_2D",
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "total_flops": 4138516480.0,
+    "total_bytes": 13460672.0,
+    "gain": 4138503019.328,
+    "op_names": [
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      3,
+      4,
+      5
+    ],
+    "total_flops": 4047998976.0,
+    "total_bytes": 13165792.0,
+    "gain": 4047985810.208,
+    "op_names": [
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "total_flops": 3991099392.0,
+    "total_bytes": 9376128.0,
+    "gain": 3991090015.872,
+    "op_names": [
+      "CONV_2D",
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D"
+    ]
+  },
+  {
+    "ops": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "total_flops": 3909111808.0,
+    "total_bytes": 17274304.0,
+    "gain": 3909094533.696,
+    "op_names": [
+      "DEPTHWISE_CONV_2D",
+      "CONV_2D",
+      "CONV_2D",
+      "DEPTHWISE_CONV_2D"
+    ]
+  }
+]

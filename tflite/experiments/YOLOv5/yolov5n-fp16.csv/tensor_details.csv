@@ -1,0 +1,387 @@
+Id,Name,Shape,Size
+0,serving_default_keras_tensor_121:0,1 640 640 3,4915200
+146,tfl.dequantize,255,1020
+147,tfl.dequantize1,255,1020
+148,tfl.dequantize2,255,1020
+149,tfl.dequantize3,256,1024
+150,tfl.dequantize4,128,512
+151,tfl.dequantize5,128,512
+152,tfl.dequantize6,128,512
+153,tfl.dequantize7,128,512
+154,tfl.dequantize8,128,512
+155,tfl.dequantize9,128,512
+156,tfl.dequantize10,64,256
+157,tfl.dequantize11,64,256
+158,tfl.dequantize12,64,256
+159,tfl.dequantize13,64,256
+160,tfl.dequantize14,64,256
+161,tfl.dequantize15,64,256
+162,tfl.dequantize16,32,128
+163,tfl.dequantize17,32,128
+164,tfl.dequantize18,32,128
+165,tfl.dequantize19,32,128
+166,tfl.dequantize20,64,256
+167,tfl.dequantize21,128,512
+168,tfl.dequantize22,64,256
+169,tfl.dequantize23,64,256
+170,tfl.dequantize24,64,256
+171,tfl.dequantize25,64,256
+172,tfl.dequantize26,128,512
+173,tfl.dequantize27,256,1024
+174,tfl.dequantize28,128,512
+175,tfl.dequantize29,256,1024
+176,tfl.dequantize30,128,512
+177,tfl.dequantize31,128,512
+178,tfl.dequantize32,128,512
+179,tfl.dequantize33,128,512
+180,tfl.dequantize34,256,1024
+181,tfl.dequantize35,128,512
+182,tfl.dequantize36,64,256
+183,tfl.dequantize37,64,256
+184,tfl.dequantize38,64,256
+185,tfl.dequantize39,64,256
+186,tfl.dequantize40,64,256
+187,tfl.dequantize41,64,256
+188,tfl.dequantize42,64,256
+189,tfl.dequantize43,64,256
+190,tfl.dequantize44,128,512
+191,tfl.dequantize45,64,256
+192,tfl.dequantize46,32,128
+193,tfl.dequantize47,32,128
+194,tfl.dequantize48,32,128
+195,tfl.dequantize49,32,128
+196,tfl.dequantize50,32,128
+197,tfl.dequantize51,32,128
+198,tfl.dequantize52,64,256
+199,tfl.dequantize53,32,128
+200,tfl.dequantize54,16,64
+201,tfl.dequantize55,16,64
+202,tfl.dequantize56,16,64
+203,tfl.dequantize57,16,64
+204,tfl.dequantize58,32,128
+205,tfl.dequantize59,255 1 1 64,65280
+206,tfl.dequantize60,255 1 1 128,130560
+207,tfl.dequantize61,255 1 1 256,261120
+208,tfl.dequantize62,256 1 1 256,262144
+209,tfl.dequantize63,128 1 1 256,131072
+210,tfl.dequantize64,128 3 3 128,589824
+211,tfl.dequantize65,128 1 1 128,65536
+212,tfl.dequantize66,128 1 1 256,131072
+213,tfl.dequantize67,128 3 3 128,589824
+214,tfl.dequantize68,128 1 1 128,65536
+215,tfl.dequantize69,64 1 1 128,32768
+216,tfl.dequantize70,64 3 3 64,147456
+217,tfl.dequantize71,64 1 1 64,16384
+218,tfl.dequantize72,64 1 1 128,32768
+219,tfl.dequantize73,64 3 3 64,147456
+220,tfl.dequantize74,64 1 1 64,16384
+221,tfl.dequantize75,32 1 1 128,16384
+222,tfl.dequantize76,32 3 3 32,36864
+223,tfl.dequantize77,32 1 1 32,4096
+224,tfl.dequantize78,32 1 1 128,16384
+225,tfl.dequantize79,64 1 1 128,32768
+226,tfl.dequantize80,128 1 1 128,65536
+227,tfl.dequantize81,64 1 1 256,65536
+228,tfl.dequantize82,64 3 3 64,147456
+229,tfl.dequantize83,64 1 1 64,16384
+230,tfl.dequantize84,64 1 1 256,65536
+231,tfl.dequantize85,128 1 1 256,131072
+232,tfl.dequantize86,256 1 1 512,524288
+233,tfl.dequantize87,128 1 1 256,131072
+234,tfl.dequantize88,256 1 1 256,262144
+235,tfl.dequantize89,128 1 1 256,131072
+236,tfl.dequantize90,128 3 3 128,589824
+237,tfl.dequantize91,128 1 1 128,65536
+238,tfl.dequantize92,128 1 1 256,131072
+239,tfl.dequantize93,256 3 3 128,1179648
+240,tfl.dequantize94,128 1 1 128,65536
+241,tfl.dequantize95,64 1 1 128,32768
+242,tfl.dequantize96,64 3 3 64,147456
+243,tfl.dequantize97,64 1 1 64,16384
+244,tfl.dequantize98,64 3 3 64,147456
+245,tfl.dequantize99,64 1 1 64,16384
+246,tfl.dequantize100,64 3 3 64,147456
+247,tfl.dequantize101,64 1 1 64,16384
+248,tfl.dequantize102,64 1 1 128,32768
+249,tfl.dequantize103,128 3 3 64,294912
+250,tfl.dequantize104,64 1 1 64,16384
+251,tfl.dequantize105,32 1 1 64,8192
+252,tfl.dequantize106,32 3 3 32,36864
+253,tfl.dequantize107,32 1 1 32,4096
+254,tfl.dequantize108,32 3 3 32,36864
+255,tfl.dequantize109,32 1 1 32,4096
+256,tfl.dequantize110,32 1 1 64,8192
+257,tfl.dequantize111,64 3 3 32,73728
+258,tfl.dequantize112,32 1 1 32,4096
+259,tfl.dequantize113,16 1 1 32,2048
+260,tfl.dequantize114,16 3 3 16,9216
+261,tfl.dequantize115,16 1 1 16,1024
+262,tfl.dequantize116,16 1 1 32,2048
+263,tfl.dequantize117,32 3 3 16,18432
+264,tfl.dequantize118,16 6 6 3,6912
+265,tfl.dequantize119,1 2,8
+266,tfl.dequantize120,,4
+267,functional_15_1/tf_detect_1/strided_slice,,4
+268,functional_15_1/tf_detect_1/strided_slice_12,,4
+269,functional_15_1/tf_detect_1/strided_slice_16,,4
+270,functional_15_1/tf_detect_1/mul_8,1 1 3 2,24
+271,functional_15_1/tf_detect_1/mul_15,1 1 3 2,24
+272,functional_15_1/tf_detect_1/mul_1,1 1 3 2,24
+273,functional_15_1/tf_detect_1/sub_1,1 1600 1 2,12800
+274,functional_15_1/tf_detect_1/sub_2,1 400 1 2,3200
+275,functional_15_1/tf_detect_1/sub,1 6400 1 2,51200
+276,functional_15_1/tf_conv_1/sequential_1/conv2d_1/BiasAdd;functional_15_1/tf_conv_1/sequential_1/conv2d_1/convolution;functional_15_1/tf_conv_1/sequential_1/conv2d_1/Squeeze,16,64
+277,functional_15_1/tf_conv_1/sequential_1/conv2d_1/BiasAdd;functional_15_1/tf_conv_1/sequential_1/conv2d_1/convolution;functional_15_1/tf_conv_1/sequential_1/conv2d_1/Squeeze;Const_4;functional_15_1/tf_conv_1/sequential_1/tf_pad_1/Pad,1 320 320 16,6553600
+278,functional_15_1/tf_conv_1/Sigmoid,1 320 320 16,6553600
+279,functional_15_1/tf_conv_1/mul_1,1 320 320 16,6553600
+280,functional_15_1/tf_conv_1_2/sequential_1_1/tf_pad_1_1/Pad,1 322 322 16,6635776
+281,functional_15_1/tf_conv_1_2/sequential_1_1/conv2d_1_1/BiasAdd;functional_15_1/tf_conv_1_2/sequential_1_1/conv2d_1_1/convolution;functional_15_1/tf_conv_1_2/sequential_1_1/conv2d_1_1/Squeeze,1 160 160 32,3276800
+282,functional_15_1/tf_conv_1_2/Sigmoid,1 160 160 32,3276800
+283,functional_15_1/tf_conv_1_2/mul_1,1 160 160 32,3276800
+284,functional_15_1/tfc3_1/tf_conv_2_1/conv2d_2_1/BiasAdd;functional_15_1/tfc3_1/tf_conv_2_1/conv2d_2_1/convolution;,1 160 160 16,1638400
+285,functional_15_1/tfc3_1/tf_conv_2_1/Sigmoid,1 160 160 16,1638400
+286,functional_15_1/tfc3_1/tf_conv_2_1/mul_1,1 160 160 16,1638400
+287,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_5_1/conv2d_5_1/BiasAdd;functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_5_1/conv2d_5_1/convolution;,1 160 160 16,1638400
+288,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_5_1/Sigmoid,1 160 160 16,1638400
+289,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_5_1/mul_1,1 160 160 16,1638400
+290,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_6_1/conv2d_6_1/BiasAdd;functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_6_1/conv2d_6_1/convolution;,1 160 160 16,1638400
+291,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_6_1/Sigmoid,1 160 160 16,1638400
+292,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/tf_conv_6_1/mul_1,1 160 160 16,1638400
+293,functional_15_1/tfc3_1/sequential_2_1/tf_bottleneck_1/add,1 160 160 16,1638400
+294,functional_15_1/tfc3_1/tf_conv_3_1/conv2d_3_1/BiasAdd;functional_15_1/tfc3_1/tf_conv_3_1/conv2d_3_1/convolution;,1 160 160 16,1638400
+295,functional_15_1/tfc3_1/tf_conv_3_1/Sigmoid,1 160 160 16,1638400
+296,functional_15_1/tfc3_1/tf_conv_3_1/mul_1,1 160 160 16,1638400
+297,functional_15_1/tfc3_1/concat,1 160 160 32,3276800
+298,functional_15_1/tfc3_1/tf_conv_4_1/conv2d_4_1/BiasAdd;functional_15_1/tfc3_1/tf_conv_4_1/conv2d_4_1/convolution;,1 160 160 32,3276800
+299,functional_15_1/tfc3_1/tf_conv_4_1/Sigmoid,1 160 160 32,3276800
+300,functional_15_1/tfc3_1/tf_conv_4_1/mul_1,1 160 160 32,3276800
+301,functional_15_1/tf_conv_7_1/sequential_3_1/tf_pad_2_1/Pad,1 162 162 32,3359232
+302,functional_15_1/tf_conv_7_1/sequential_3_1/conv2d_7_1/BiasAdd;functional_15_1/tf_conv_7_1/sequential_3_1/conv2d_7_1/convolution;functional_15_1/tf_conv_7_1/sequential_3_1/conv2d_7_1/Squeeze,1 80 80 64,1638400
+303,functional_15_1/tf_conv_7_1/Sigmoid,1 80 80 64,1638400
+304,functional_15_1/tf_conv_7_1/mul_1,1 80 80 64,1638400
+305,functional_15_1/tfc3_1_2/tf_conv_8_1/conv2d_8_1/BiasAdd;functional_15_1/tfc3_1_2/tf_conv_8_1/conv2d_8_1/convolution;,1 80 80 32,819200
+306,functional_15_1/tfc3_1_2/tf_conv_8_1/Sigmoid,1 80 80 32,819200
+307,functional_15_1/tfc3_1_2/tf_conv_8_1/mul_1,1 80 80 32,819200
+308,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_11_1/conv2d_11_1/BiasAdd;functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_11_1/conv2d_11_1/convolution;,1 80 80 32,819200
+309,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_11_1/Sigmoid,1 80 80 32,819200
+310,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_11_1/mul_1,1 80 80 32,819200
+311,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_12_1/conv2d_12_1/BiasAdd;functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_12_1/conv2d_12_1/convolution;,1 80 80 32,819200
+312,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_12_1/Sigmoid,1 80 80 32,819200
+313,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/tf_conv_12_1/mul_1,1 80 80 32,819200
+314,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_1_1/add,1 80 80 32,819200
+315,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_13_1/conv2d_13_1/BiasAdd;functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_13_1/conv2d_13_1/convolution;,1 80 80 32,819200
+316,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_13_1/Sigmoid,1 80 80 32,819200
+317,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_13_1/mul_1,1 80 80 32,819200
+318,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_14_1/conv2d_14_1/BiasAdd;functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_14_1/conv2d_14_1/convolution;,1 80 80 32,819200
+319,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_14_1/Sigmoid,1 80 80 32,819200
+320,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/tf_conv_14_1/mul_1,1 80 80 32,819200
+321,functional_15_1/tfc3_1_2/sequential_4_1/tf_bottleneck_2_1/add,1 80 80 32,819200
+322,functional_15_1/tfc3_1_2/tf_conv_9_1/conv2d_9_1/BiasAdd;functional_15_1/tfc3_1_2/tf_conv_9_1/conv2d_9_1/convolution;,1 80 80 32,819200
+323,functional_15_1/tfc3_1_2/tf_conv_9_1/Sigmoid,1 80 80 32,819200
+324,functional_15_1/tfc3_1_2/tf_conv_9_1/mul_1,1 80 80 32,819200
+325,functional_15_1/tfc3_1_2/concat,1 80 80 64,1638400
+326,functional_15_1/tfc3_1_2/tf_conv_10_1/conv2d_10_1/BiasAdd;functional_15_1/tfc3_1_2/tf_conv_10_1/conv2d_10_1/convolution;,1 80 80 64,1638400
+327,functional_15_1/tfc3_1_2/tf_conv_10_1/Sigmoid,1 80 80 64,1638400
+328,functional_15_1/tfc3_1_2/tf_conv_10_1/mul_1,1 80 80 64,1638400
+329,functional_15_1/tf_conv_15_1/sequential_5_1/tf_pad_3_1/Pad,1 82 82 64,1721344
+330,functional_15_1/tf_conv_15_1/sequential_5_1/conv2d_15_1/BiasAdd;functional_15_1/tf_conv_15_1/sequential_5_1/conv2d_15_1/convolution;functional_15_1/tf_conv_15_1/sequential_5_1/conv2d_15_1/Squeeze,1 40 40 128,819200
+331,functional_15_1/tf_conv_15_1/Sigmoid,1 40 40 128,819200
+332,functional_15_1/tf_conv_15_1/mul_1,1 40 40 128,819200
+333,functional_15_1/tfc3_2_1/tf_conv_16_1/conv2d_16_1/BiasAdd;functional_15_1/tfc3_2_1/tf_conv_16_1/conv2d_16_1/convolution;,1 40 40 64,409600
+334,functional_15_1/tfc3_2_1/tf_conv_16_1/Sigmoid,1 40 40 64,409600
+335,functional_15_1/tfc3_2_1/tf_conv_16_1/mul_1,1 40 40 64,409600
+336,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_19_1/conv2d_19_1/BiasAdd;functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_19_1/conv2d_19_1/convolution;,1 40 40 64,409600
+337,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_19_1/Sigmoid,1 40 40 64,409600
+338,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_19_1/mul_1,1 40 40 64,409600
+339,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_20_1/conv2d_20_1/BiasAdd;functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_20_1/conv2d_20_1/convolution;,1 40 40 64,409600
+340,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_20_1/Sigmoid,1 40 40 64,409600
+341,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/tf_conv_20_1/mul_1,1 40 40 64,409600
+342,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_3_1/add,1 40 40 64,409600
+343,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_21_1/conv2d_21_1/BiasAdd;functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_21_1/conv2d_21_1/convolution;,1 40 40 64,409600
+344,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_21_1/Sigmoid,1 40 40 64,409600
+345,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_21_1/mul_1,1 40 40 64,409600
+346,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_22_1/conv2d_22_1/BiasAdd;functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_22_1/conv2d_22_1/convolution;,1 40 40 64,409600
+347,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_22_1/Sigmoid,1 40 40 64,409600
+348,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/tf_conv_22_1/mul_1,1 40 40 64,409600
+349,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_4_1/add,1 40 40 64,409600
+350,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_23_1/conv2d_23_1/BiasAdd;functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_23_1/conv2d_23_1/convolution;,1 40 40 64,409600
+351,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_23_1/Sigmoid,1 40 40 64,409600
+352,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_23_1/mul_1,1 40 40 64,409600
+353,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_24_1/conv2d_24_1/BiasAdd;functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_24_1/conv2d_24_1/convolution;,1 40 40 64,409600
+354,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_24_1/Sigmoid,1 40 40 64,409600
+355,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/tf_conv_24_1/mul_1,1 40 40 64,409600
+356,functional_15_1/tfc3_2_1/sequential_6_1/tf_bottleneck_5_1/add,1 40 40 64,409600
+357,functional_15_1/tfc3_2_1/tf_conv_17_1/conv2d_17_1/BiasAdd;functional_15_1/tfc3_2_1/tf_conv_17_1/conv2d_17_1/convolution;,1 40 40 64,409600
+358,functional_15_1/tfc3_2_1/tf_conv_17_1/Sigmoid,1 40 40 64,409600
+359,functional_15_1/tfc3_2_1/tf_conv_17_1/mul_1,1 40 40 64,409600
+360,functional_15_1/tfc3_2_1/concat,1 40 40 128,819200
+361,functional_15_1/tfc3_2_1/tf_conv_18_1/conv2d_18_1/BiasAdd;functional_15_1/tfc3_2_1/tf_conv_18_1/conv2d_18_1/convolution;,1 40 40 128,819200
+362,functional_15_1/tfc3_2_1/tf_conv_18_1/Sigmoid,1 40 40 128,819200
+363,functional_15_1/tfc3_2_1/tf_conv_18_1/mul_1,1 40 40 128,819200
+364,functional_15_1/tf_conv_25_1/sequential_7_1/tf_pad_4_1/Pad,1 42 42 128,903168
+365,functional_15_1/tf_conv_25_1/sequential_7_1/conv2d_25_1/BiasAdd;functional_15_1/tf_conv_25_1/sequential_7_1/conv2d_25_1/convolution;functional_15_1/tf_conv_25_1/sequential_7_1/conv2d_25_1/Squeeze,1 20 20 256,409600
+366,functional_15_1/tf_conv_25_1/Sigmoid,1 20 20 256,409600
+367,functional_15_1/tf_conv_25_1/mul_1,1 20 20 256,409600
+368,functional_15_1/tfc3_3_1/tf_conv_26_1/conv2d_26_1/BiasAdd;functional_15_1/tfc3_3_1/tf_conv_26_1/conv2d_26_1/convolution;,1 20 20 128,204800
+369,functional_15_1/tfc3_3_1/tf_conv_26_1/Sigmoid,1 20 20 128,204800
+370,functional_15_1/tfc3_3_1/tf_conv_26_1/mul_1,1 20 20 128,204800
+371,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_29_1/conv2d_29_1/BiasAdd;functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_29_1/conv2d_29_1/convolution;,1 20 20 128,204800
+372,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_29_1/Sigmoid,1 20 20 128,204800
+373,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_29_1/mul_1,1 20 20 128,204800
+374,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_30_1/conv2d_30_1/BiasAdd;functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_30_1/conv2d_30_1/convolution;,1 20 20 128,204800
+375,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_30_1/Sigmoid,1 20 20 128,204800
+376,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/tf_conv_30_1/mul_1,1 20 20 128,204800
+377,functional_15_1/tfc3_3_1/sequential_8_1/tf_bottleneck_6_1/add,1 20 20 128,204800
+378,functional_15_1/tfc3_3_1/tf_conv_27_1/conv2d_27_1/BiasAdd;functional_15_1/tfc3_3_1/tf_conv_27_1/conv2d_27_1/convolution;,1 20 20 128,204800
+379,functional_15_1/tfc3_3_1/tf_conv_27_1/Sigmoid,1 20 20 128,204800
+380,functional_15_1/tfc3_3_1/tf_conv_27_1/mul_1,1 20 20 128,204800
+381,functional_15_1/tfc3_3_1/concat,1 20 20 256,409600
+382,functional_15_1/tfc3_3_1/tf_conv_28_1/conv2d_28_1/BiasAdd;functional_15_1/tfc3_3_1/tf_conv_28_1/conv2d_28_1/convolution;,1 20 20 256,409600
+383,functional_15_1/tfc3_3_1/tf_conv_28_1/Sigmoid,1 20 20 256,409600
+384,functional_15_1/tfc3_3_1/tf_conv_28_1/mul_1,1 20 20 256,409600
+385,functional_15_1/tfsppf_1/tf_conv_31_1/conv2d_31_1/BiasAdd;functional_15_1/tfsppf_1/tf_conv_31_1/conv2d_31_1/convolution;,1 20 20 128,204800
+386,functional_15_1/tfsppf_1/tf_conv_31_1/Sigmoid,1 20 20 128,204800
+387,functional_15_1/tfsppf_1/tf_conv_31_1/mul_1,1 20 20 128,204800
+388,functional_15_1/tfsppf_1/max_pooling2d_1/MaxPool2d,1 20 20 128,204800
+389,functional_15_1/tfsppf_1/max_pooling2d_3/MaxPool2d,1 20 20 128,204800
+390,functional_15_1/tfsppf_1/max_pooling2d_5/MaxPool2d,1 20 20 128,204800
+391,functional_15_1/tfsppf_1/concat,1 20 20 512,819200
+392,functional_15_1/tfsppf_1/tf_conv_32_1/conv2d_32_1/BiasAdd;functional_15_1/tfsppf_1/tf_conv_32_1/conv2d_32_1/convolution;,1 20 20 256,409600
+393,functional_15_1/tfsppf_1/tf_conv_32_1/Sigmoid,1 20 20 256,409600
+394,functional_15_1/tfsppf_1/tf_conv_32_1/mul_1,1 20 20 256,409600
+395,functional_15_1/tf_conv_33_1/conv2d_33_1/BiasAdd;functional_15_1/tf_conv_33_1/conv2d_33_1/convolution;functional_15_1/tf_conv_33_1/conv2d_33_1/Squeeze,1 20 20 128,204800
+396,functional_15_1/tf_conv_33_1/Sigmoid,1 20 20 128,204800
+397,functional_15_1/tf_conv_33_1/mul_1,1 20 20 128,204800
+398,functional_15_1/tf_upsample_1/resize/ResizeNearestNeighbor,1 40 40 128,819200
+399,functional_15_1/tf_concat_1/concat,1 40 40 256,1638400
+400,functional_15_1/tfc3_4_1/tf_conv_34_1/conv2d_34_1/BiasAdd;functional_15_1/tfc3_4_1/tf_conv_34_1/conv2d_34_1/convolution;,1 40 40 64,409600
+401,functional_15_1/tfc3_4_1/tf_conv_34_1/Sigmoid,1 40 40 64,409600
+402,functional_15_1/tfc3_4_1/tf_conv_34_1/mul_1,1 40 40 64,409600
+403,functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_37_1/conv2d_37_1/BiasAdd;functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_37_1/conv2d_37_1/convolution;,1 40 40 64,409600
+404,functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_37_1/Sigmoid,1 40 40 64,409600
+405,functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_37_1/mul_1,1 40 40 64,409600
+406,functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_38_1/conv2d_38_1/BiasAdd;functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_38_1/conv2d_38_1/convolution;,1 40 40 64,409600
+407,functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_38_1/Sigmoid,1 40 40 64,409600
+408,functional_15_1/tfc3_4_1/sequential_9_1/tf_bottleneck_7_1/tf_conv_38_1/mul_1,1 40 40 64,409600
+409,functional_15_1/tfc3_4_1/tf_conv_35_1/conv2d_35_1/BiasAdd;functional_15_1/tfc3_4_1/tf_conv_35_1/conv2d_35_1/convolution;,1 40 40 64,409600
+410,functional_15_1/tfc3_4_1/tf_conv_35_1/Sigmoid,1 40 40 64,409600
+411,functional_15_1/tfc3_4_1/tf_conv_35_1/mul_1,1 40 40 64,409600
+412,functional_15_1/tfc3_4_1/concat,1 40 40 128,819200
+413,functional_15_1/tfc3_4_1/tf_conv_36_1/conv2d_36_1/BiasAdd;functional_15_1/tfc3_4_1/tf_conv_36_1/conv2d_36_1/convolution;,1 40 40 128,819200
+414,functional_15_1/tfc3_4_1/tf_conv_36_1/Sigmoid,1 40 40 128,819200
+415,functional_15_1/tfc3_4_1/tf_conv_36_1/mul_1,1 40 40 128,819200
+416,functional_15_1/tf_conv_39_1/conv2d_39_1/BiasAdd;functional_15_1/tf_conv_39_1/conv2d_39_1/convolution;functional_15_1/tf_conv_39_1/conv2d_39_1/Squeeze,1 40 40 64,409600
+417,functional_15_1/tf_conv_39_1/Sigmoid,1 40 40 64,409600
+418,functional_15_1/tf_conv_39_1/mul_1,1 40 40 64,409600
+419,functional_15_1/tf_upsample_1_2/resize/ResizeNearestNeighbor,1 80 80 64,1638400
+420,functional_15_1/tf_concat_1_2/concat,1 80 80 128,3276800
+421,functional_15_1/tfc3_5_1/tf_conv_40_1/conv2d_40_1/BiasAdd;functional_15_1/tfc3_5_1/tf_conv_40_1/conv2d_40_1/convolution;,1 80 80 32,819200
+422,functional_15_1/tfc3_5_1/tf_conv_40_1/Sigmoid,1 80 80 32,819200
+423,functional_15_1/tfc3_5_1/tf_conv_40_1/mul_1,1 80 80 32,819200
+424,functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_43_1/conv2d_43_1/BiasAdd;functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_43_1/conv2d_43_1/convolution;,1 80 80 32,819200
+425,functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_43_1/Sigmoid,1 80 80 32,819200
+426,functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_43_1/mul_1,1 80 80 32,819200
+427,functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_44_1/conv2d_44_1/BiasAdd;functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_44_1/conv2d_44_1/convolution;,1 80 80 32,819200
+428,functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_44_1/Sigmoid,1 80 80 32,819200
+429,functional_15_1/tfc3_5_1/sequential_10_1/tf_bottleneck_8_1/tf_conv_44_1/mul_1,1 80 80 32,819200
+430,functional_15_1/tfc3_5_1/tf_conv_41_1/conv2d_41_1/BiasAdd;functional_15_1/tfc3_5_1/tf_conv_41_1/conv2d_41_1/convolution;,1 80 80 32,819200
+431,functional_15_1/tfc3_5_1/tf_conv_41_1/Sigmoid,1 80 80 32,819200
+432,functional_15_1/tfc3_5_1/tf_conv_41_1/mul_1,1 80 80 32,819200
+433,functional_15_1/tfc3_5_1/concat,1 80 80 64,1638400
+434,functional_15_1/tfc3_5_1/tf_conv_42_1/conv2d_42_1/BiasAdd;functional_15_1/tfc3_5_1/tf_conv_42_1/conv2d_42_1/convolution;,1 80 80 64,1638400
+435,functional_15_1/tfc3_5_1/tf_conv_42_1/Sigmoid,1 80 80 64,1638400
+436,functional_15_1/tfc3_5_1/tf_conv_42_1/mul_1,1 80 80 64,1638400
+437,functional_15_1/tf_conv_45_1/sequential_11_1/tf_pad_5_1/Pad,1 82 82 64,1721344
+438,functional_15_1/tf_conv_45_1/sequential_11_1/conv2d_45_1/BiasAdd;functional_15_1/tf_conv_45_1/sequential_11_1/conv2d_45_1/convolution;functional_15_1/tf_conv_45_1/sequential_11_1/conv2d_45_1/Squeeze,1 40 40 64,409600
+439,functional_15_1/tf_conv_45_1/Sigmoid,1 40 40 64,409600
+440,functional_15_1/tf_conv_45_1/mul_1,1 40 40 64,409600
+441,functional_15_1/tf_concat_2_1/concat,1 40 40 128,819200
+442,functional_15_1/tfc3_6_1/tf_conv_46_1/conv2d_46_1/BiasAdd;functional_15_1/tfc3_6_1/tf_conv_46_1/conv2d_46_1/convolution;,1 40 40 64,409600
+443,functional_15_1/tfc3_6_1/tf_conv_46_1/Sigmoid,1 40 40 64,409600
+444,functional_15_1/tfc3_6_1/tf_conv_46_1/mul_1,1 40 40 64,409600
+445,functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_49_1/conv2d_49_1/BiasAdd;functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_49_1/conv2d_49_1/convolution;,1 40 40 64,409600
+446,functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_49_1/Sigmoid,1 40 40 64,409600
+447,functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_49_1/mul_1,1 40 40 64,409600
+448,functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_50_1/conv2d_50_1/BiasAdd;functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_50_1/conv2d_50_1/convolution;,1 40 40 64,409600
+449,functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_50_1/Sigmoid,1 40 40 64,409600
+450,functional_15_1/tfc3_6_1/sequential_12_1/tf_bottleneck_9_1/tf_conv_50_1/mul_1,1 40 40 64,409600
+451,functional_15_1/tfc3_6_1/tf_conv_47_1/conv2d_47_1/BiasAdd;functional_15_1/tfc3_6_1/tf_conv_47_1/conv2d_47_1/convolution;,1 40 40 64,409600
+452,functional_15_1/tfc3_6_1/tf_conv_47_1/Sigmoid,1 40 40 64,409600
+453,functional_15_1/tfc3_6_1/tf_conv_47_1/mul_1,1 40 40 64,409600
+454,functional_15_1/tfc3_6_1/concat,1 40 40 128,819200
+455,functional_15_1/tfc3_6_1/tf_conv_48_1/conv2d_48_1/BiasAdd;functional_15_1/tfc3_6_1/tf_conv_48_1/conv2d_48_1/convolution;,1 40 40 128,819200
+456,functional_15_1/tfc3_6_1/tf_conv_48_1/Sigmoid,1 40 40 128,819200
+457,functional_15_1/tfc3_6_1/tf_conv_48_1/mul_1,1 40 40 128,819200
+458,functional_15_1/tf_conv_51_1/sequential_13_1/tf_pad_6_1/Pad,1 42 42 128,903168
+459,functional_15_1/tf_conv_51_1/sequential_13_1/conv2d_51_1/BiasAdd;functional_15_1/tf_conv_51_1/sequential_13_1/conv2d_51_1/convolution;functional_15_1/tf_conv_51_1/sequential_13_1/conv2d_51_1/Squeeze,1 20 20 128,204800
+460,functional_15_1/tf_conv_51_1/Sigmoid,1 20 20 128,204800
+461,functional_15_1/tf_conv_51_1/mul_1,1 20 20 128,204800
+462,functional_15_1/tf_concat_3_1/concat,1 20 20 256,409600
+463,functional_15_1/tfc3_7_1/tf_conv_52_1/conv2d_52_1/BiasAdd;functional_15_1/tfc3_7_1/tf_conv_52_1/conv2d_52_1/convolution;,1 20 20 128,204800
+464,functional_15_1/tfc3_7_1/tf_conv_52_1/Sigmoid,1 20 20 128,204800
+465,functional_15_1/tfc3_7_1/tf_conv_52_1/mul_1,1 20 20 128,204800
+466,functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_55_1/conv2d_55_1/BiasAdd;functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_55_1/conv2d_55_1/convolution;,1 20 20 128,204800
+467,functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_55_1/Sigmoid,1 20 20 128,204800
+468,functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_55_1/mul_1,1 20 20 128,204800
+469,functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_56_1/conv2d_56_1/BiasAdd;functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_56_1/conv2d_56_1/convolution;,1 20 20 128,204800
+470,functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_56_1/Sigmoid,1 20 20 128,204800
+471,functional_15_1/tfc3_7_1/sequential_14_1/tf_bottleneck_10_1/tf_conv_56_1/mul_1,1 20 20 128,204800
+472,functional_15_1/tfc3_7_1/tf_conv_53_1/conv2d_53_1/BiasAdd;functional_15_1/tfc3_7_1/tf_conv_53_1/conv2d_53_1/convolution;,1 20 20 128,204800
+473,functional_15_1/tfc3_7_1/tf_conv_53_1/Sigmoid,1 20 20 128,204800
+474,functional_15_1/tfc3_7_1/tf_conv_53_1/mul_1,1 20 20 128,204800
+475,functional_15_1/tfc3_7_1/concat,1 20 20 256,409600
+476,functional_15_1/tfc3_7_1/tf_conv_54_1/conv2d_54_1/BiasAdd;functional_15_1/tfc3_7_1/tf_conv_54_1/conv2d_54_1/convolution;,1 20 20 256,409600
+477,functional_15_1/tfc3_7_1/tf_conv_54_1/Sigmoid,1 20 20 256,409600
+478,functional_15_1/tfc3_7_1/tf_conv_54_1/mul_1,1 20 20 256,409600
+479,functional_15_1/tf_detect_1/tf_conv2d_2_1/conv2d_59_1/BiasAdd;functional_15_1/tf_detect_1/tf_conv2d_2_1/conv2d_59_1/convolution;,1 20 20 255,408000
+480,functional_15_1/tf_detect_1/Reshape_4,1 400 3 85,408000
+481,functional_15_1/tf_detect_1/strided_slice_19,1 400 3 2,9600
+482,functional_15_1/tf_detect_1/Sigmoid_6,1 400 3 2,9600
+483,functional_15_1/tf_detect_1/mul_16,1 400 3 2,9600
+484,functional_15_1/tf_detect_1/add_2,1 400 3 2,9600
+485,functional_15_1/tf_detect_1/mul_17,1 400 3 2,9600
+486,functional_15_1/tf_detect_1/truediv_4,1 400 3 2,9600
+487,functional_15_1/tf_detect_1/strided_slice_21,1 400 3 2,9600
+488,functional_15_1/tf_detect_1/Sigmoid_7,1 400 3 2,9600
+489,functional_15_1/tf_detect_1/pow_2;,1 400 3 2,9600
+490,functional_15_1/tf_detect_1/mul_18,1 400 3 2,9600
+491,functional_15_1/tf_detect_1/truediv_5,1 400 3 2,9600
+492,functional_15_1/tf_detect_1/strided_slice_22,1 400 3 81,388800
+493,functional_15_1/tf_detect_1/Sigmoid_8,1 400 3 81,388800
+494,functional_15_1/tf_detect_1/concat_2,1 400 3 85,408000
+495,functional_15_1/tf_detect_1/Reshape_5,1 1200 85,408000
+496,functional_15_1/tf_detect_1/tf_conv2d_1_2/conv2d_58_1/BiasAdd;functional_15_1/tf_detect_1/tf_conv2d_1_2/conv2d_58_1/convolution;,1 40 40 255,1632000
+497,functional_15_1/tf_detect_1/Reshape_2,1 1600 3 85,1632000
+498,functional_15_1/tf_detect_1/strided_slice_11,1 1600 3 2,38400
+499,functional_15_1/tf_detect_1/Sigmoid_3,1 1600 3 2,38400
+500,functional_15_1/tf_detect_1/mul_9,1 1600 3 2,38400
+501,functional_15_1/tf_detect_1/add_1,1 1600 3 2,38400
+502,functional_15_1/tf_detect_1/mul_10,1 1600 3 2,38400
+503,functional_15_1/tf_detect_1/truediv_2,1 1600 3 2,38400
+504,functional_15_1/tf_detect_1/strided_slice_13,1 1600 3 2,38400
+505,functional_15_1/tf_detect_1/Sigmoid_4,1 1600 3 2,38400
+506,functional_15_1/tf_detect_1/pow_1;,1 1600 3 2,38400
+507,functional_15_1/tf_detect_1/mul_11,1 1600 3 2,38400
+508,functional_15_1/tf_detect_1/truediv_3,1 1600 3 2,38400
+509,functional_15_1/tf_detect_1/strided_slice_14,1 1600 3 81,1555200
+510,functional_15_1/tf_detect_1/Sigmoid_5,1 1600 3 81,1555200
+511,functional_15_1/tf_detect_1/concat_1,1 1600 3 85,1632000
+512,functional_15_1/tf_detect_1/Reshape_3,1 4800 85,1632000
+513,functional_15_1/tf_detect_1/tf_conv2d_1/conv2d_57_1/BiasAdd;functional_15_1/tf_detect_1/tf_conv2d_1/conv2d_57_1/convolution;,1 80 80 255,6528000
+514,functional_15_1/tf_detect_1/Reshape,1 6400 3 85,6528000
+515,functional_15_1/tf_detect_1/strided_slice_3,1 6400 3 2,153600
+516,functional_15_1/tf_detect_1/Sigmoid,1 6400 3 2,153600
+517,functional_15_1/tf_detect_1/mul_2,1 6400 3 2,153600
+518,functional_15_1/tf_detect_1/add,1 6400 3 2,153600
+519,functional_15_1/tf_detect_1/mul_3,1 6400 3 2,153600
+520,functional_15_1/tf_detect_1/truediv,1 6400 3 2,153600
+521,functional_15_1/tf_detect_1/strided_slice_5,1 6400 3 2,153600
+522,functional_15_1/tf_detect_1/Sigmoid_1,1 6400 3 2,153600
+523,functional_15_1/tf_detect_1/pow;,1 6400 3 2,153600
+524,functional_15_1/tf_detect_1/mul_4,1 6400 3 2,153600
+525,functional_15_1/tf_detect_1/truediv_1,1 6400 3 2,153600
+526,functional_15_1/tf_detect_1/strided_slice_6,1 6400 3 81,6220800
+527,functional_15_1/tf_detect_1/Sigmoid_2,1 6400 3 81,6220800
+528,functional_15_1/tf_detect_1/concat,1 6400 3 85,6528000
+529,functional_15_1/tf_detect_1/Reshape_1,1 19200 85,6528000
+530,StatefulPartitionedCall_1:0,1 25200 85,8568000

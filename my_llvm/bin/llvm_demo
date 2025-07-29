@@ -1,0 +1,6 @@
+#!/bin/bash
+LLVM_BUILD=/home/jueun/park/IREE/llvm-project/mlir-build
+LLVM_PASS=$LLVM_BUILD/lib/HelloLoad.so
+
+$LLVM_BUILD/bin/opt -load-pass-plugin=$LLVM_PASS -passes="hello-load" "$1" -o "${1%.ll}_demo.ll"
+

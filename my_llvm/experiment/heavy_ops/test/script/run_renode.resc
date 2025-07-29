@@ -1,0 +1,17 @@
+using sysbus
+mach create
+
+# 4‑1) 플랫폼 로드 (기본 FE310 사용 예)
+include @platforms/cpus/riscv_fe310.repl
+sysbus LoadELF @build/fused/app.elf   ;# 여긴 fused·plain에 맞춰 변수화 가능
+
+# 4‑2) 커스텀 ISA 카운팅 + 트레이스
+logLevel 3
+cpu EnableOpcodesCounting true
+cpu InstallOpcodeCounterPattern "CUSTOM3" "??????????????????????????1111011"
+cpu EnableCustomOpcodesCounting   ; Renode 내 프리셋 :contentReference[oaicite:1]{index=1}
+
+start
+# ↳ 프로그램이 끝나면 UART 로그 or ebreak로 멈춤
+cpu GetAllOpcodesCounters         ; CUSTOM3 실행 횟수 확인   :contentReference[oaicite:2]{index=2}
+quit

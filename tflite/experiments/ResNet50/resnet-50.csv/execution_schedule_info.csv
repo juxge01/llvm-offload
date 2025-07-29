@@ -1,0 +1,76 @@
+Operator,Working set,Memory use,MACs
+resnet50_1/conv1_pad_1/Pad,0 112,1236912,0
+resnet50_1/conv1_relu_1/Relu;resnet50_1/conv1_bn_1/batchnorm/add_1;resnet50_1/conv1_bn_1/batchnorm/mul_1;;resnet50_1/conv1_conv_1/BiasAdd;resnet50_1/conv1_conv_1/convolution,112 113,3846064,118013952
+resnet50_1/pool1_pad_1/Pad,113 114,6538240,0
+resnet50_1/pool1_pool_1/MaxPool2d,114 115,4129792,1806336
+resnet50_1/conv2_block1_0_bn_1/batchnorm/add_1;resnet50_1/conv2_block1_0_conv_1/convolution;,115 116,4014080,51380224
+resnet50_1/conv2_block1_1_relu_1/Relu;resnet50_1/conv2_block1_1_bn_1/batchnorm/add_1;resnet50_1/conv2_block1_1_conv_1/convolution;,115 116 117,4816896,12845056
+resnet50_1/conv2_block1_2_relu_1/Relu;resnet50_1/conv2_block1_2_bn_1/batchnorm/add_1;resnet50_1/conv2_block1_2_conv_1/convolution;,116 117 118,4816896,115605504
+resnet50_1/conv2_block1_3_bn_1/batchnorm/add_1;resnet50_1/conv2_block1_3_conv_1/convolution;,116 118 119,7225344,51380224
+resnet50_1/conv2_block1_out_1/Relu;resnet50_1/conv2_block1_add_1/Add,116 119 120,9633792,802816
+resnet50_1/conv2_block2_1_relu_1/Relu;resnet50_1/conv2_block2_1_bn_1/batchnorm/add_1;resnet50_1/conv2_block2_1_conv_1/convolution;,120 121,4014080,51380224
+resnet50_1/conv2_block2_2_relu_1/Relu;resnet50_1/conv2_block2_2_bn_1/batchnorm/add_1;resnet50_1/conv2_block2_2_conv_1/convolution;,120 121 122,4816896,115605504
+resnet50_1/conv2_block2_3_bn_1/batchnorm/add_1;resnet50_1/conv2_block2_3_bn_1/batchnorm/mul_1;;resnet50_1/conv2_block2_3_conv_1/BiasAdd;resnet50_1/conv2_block2_3_conv_1/convolution,120 122 123,7225344,51380224
+resnet50_1/conv2_block2_out_1/Relu;resnet50_1/conv2_block2_add_1/Add,120 123 124,9633792,802816
+resnet50_1/conv2_block3_1_relu_1/Relu;resnet50_1/conv2_block3_1_bn_1/batchnorm/add_1;resnet50_1/conv2_block3_1_conv_1/convolution;,124 125,4014080,51380224
+resnet50_1/conv2_block3_2_relu_1/Relu;resnet50_1/conv2_block3_2_bn_1/batchnorm/add_1;resnet50_1/conv2_block3_2_conv_1/convolution;,124 125 126,4816896,115605504
+resnet50_1/conv2_block3_3_bn_1/batchnorm/add_1;resnet50_1/conv2_block3_3_bn_1/batchnorm/mul_1;;resnet50_1/conv2_block3_3_conv_1/BiasAdd;resnet50_1/conv2_block3_3_conv_1/convolution,124 126 127,7225344,51380224
+resnet50_1/conv2_block3_out_1/Relu;resnet50_1/conv2_block3_add_1/Add,124 127 128,9633792,802816
+resnet50_1/conv3_block1_0_bn_1/batchnorm/add_1;resnet50_1/conv3_block1_0_conv_1/convolution;,128 129,4816896,102760448
+resnet50_1/conv3_block1_1_relu_1/Relu;resnet50_1/conv3_block1_1_bn_1/batchnorm/add_1;resnet50_1/conv3_block1_1_conv_1/convolution;,128 129 130,5218304,25690112
+resnet50_1/conv3_block1_2_relu_1/Relu;resnet50_1/conv3_block1_2_bn_1/batchnorm/add_1;resnet50_1/conv3_block1_2_conv_1/convolution;,129 130 131,2408448,115605504
+resnet50_1/conv3_block1_3_bn_1/batchnorm/add_1;resnet50_1/conv3_block1_3_bn_1/batchnorm/mul_1;;resnet50_1/conv3_block1_3_conv_1/BiasAdd;resnet50_1/conv3_block1_3_conv_1/convolution,129 131 132,3612672,51380224
+resnet50_1/conv3_block1_out_1/Relu;resnet50_1/conv3_block1_add_1/Add,129 132 133,4816896,401408
+resnet50_1/conv3_block2_1_relu_1/Relu;resnet50_1/conv3_block2_1_bn_1/batchnorm/add_1;resnet50_1/conv3_block2_1_conv_1/convolution;,133 134,2007040,51380224
+resnet50_1/conv3_block2_2_relu_1/Relu;resnet50_1/conv3_block2_2_bn_1/batchnorm/add_1;resnet50_1/conv3_block2_2_conv_1/convolution;,133 134 135,2408448,115605504
+resnet50_1/conv3_block2_3_bn_1/batchnorm/add_1;resnet50_1/conv3_block2_3_bn_1/batchnorm/mul_1;;resnet50_1/conv3_block2_3_conv_1/BiasAdd;resnet50_1/conv3_block2_3_conv_1/convolution,133 135 136,3612672,51380224
+resnet50_1/conv3_block2_out_1/Relu;resnet50_1/conv3_block2_add_1/Add,133 136 137,4816896,401408
+resnet50_1/conv3_block3_1_relu_1/Relu;resnet50_1/conv3_block3_1_bn_1/batchnorm/add_1;resnet50_1/conv3_block3_1_conv_1/convolution;,138 137,2007040,51380224
+resnet50_1/conv3_block3_2_relu_1/Relu;resnet50_1/conv3_block3_2_bn_1/batchnorm/add_1;resnet50_1/conv3_block3_2_conv_1/convolution;,138 137 139,2408448,115605504
+resnet50_1/conv3_block3_3_bn_1/batchnorm/add_1;resnet50_1/conv3_block3_3_bn_1/batchnorm/mul_1;;resnet50_1/conv3_block3_3_conv_1/BiasAdd;resnet50_1/conv3_block3_3_conv_1/convolution,137 139 140,3612672,51380224
+resnet50_1/conv3_block3_out_1/Relu;resnet50_1/conv3_block3_add_1/Add,137 140 141,4816896,401408
+resnet50_1/conv3_block4_1_relu_1/Relu;resnet50_1/conv3_block4_1_bn_1/batchnorm/add_1;resnet50_1/conv3_block4_1_conv_1/convolution;,141 142,2007040,51380224
+resnet50_1/conv3_block4_2_relu_1/Relu;resnet50_1/conv3_block4_2_bn_1/batchnorm/add_1;resnet50_1/conv3_block4_2_conv_1/convolution;,142 143 141,2408448,115605504
+resnet50_1/conv3_block4_3_bn_1/batchnorm/add_1;resnet50_1/conv3_block4_3_bn_1/batchnorm/mul_1;;resnet50_1/conv3_block4_3_conv_1/BiasAdd;resnet50_1/conv3_block4_3_conv_1/convolution,141 143 144,3612672,51380224
+resnet50_1/conv3_block4_out_1/Relu;resnet50_1/conv3_block4_add_1/Add,141 144 145,4816896,401408
+resnet50_1/conv4_block1_0_bn_1/batchnorm/add_1;resnet50_1/conv4_block1_0_conv_1/convolution;,145 146,2408448,102760448
+resnet50_1/conv4_block1_1_relu_1/Relu;resnet50_1/conv4_block1_1_bn_1/batchnorm/add_1;resnet50_1/conv4_block1_1_conv_1/convolution;,145 146 147,2609152,25690112
+resnet50_1/conv4_block1_2_relu_1/Relu;resnet50_1/conv4_block1_2_bn_1/batchnorm/add_1;resnet50_1/conv4_block1_2_conv_1/convolution;,146 147 148,1204224,115605504
+resnet50_1/conv4_block1_3_bn_1/batchnorm/add_1;resnet50_1/conv4_block1_3_conv_1/convolution;,146 148 149,1806336,51380224
+resnet50_1/conv4_block1_out_1/Relu;resnet50_1/conv4_block1_add_1/Add,146 149 150,2408448,200704
+resnet50_1/conv4_block2_1_relu_1/Relu;resnet50_1/conv4_block2_1_bn_1/batchnorm/add_1;resnet50_1/conv4_block2_1_conv_1/convolution;,150 151,1003520,51380224
+resnet50_1/conv4_block2_2_relu_1/Relu;resnet50_1/conv4_block2_2_bn_1/batchnorm/add_1;resnet50_1/conv4_block2_2_conv_1/convolution;,150 151 152,1204224,115605504
+resnet50_1/conv4_block2_3_bn_1/batchnorm/add_1;resnet50_1/conv4_block2_3_conv_1/convolution;,150 152 153,1806336,51380224
+resnet50_1/conv4_block2_out_1/Relu;resnet50_1/conv4_block2_add_1/Add,150 153 154,2408448,200704
+resnet50_1/conv4_block3_1_relu_1/Relu;resnet50_1/conv4_block3_1_bn_1/batchnorm/add_1;resnet50_1/conv4_block3_1_conv_1/convolution;,154 155,1003520,51380224
+resnet50_1/conv4_block3_2_relu_1/Relu;resnet50_1/conv4_block3_2_bn_1/batchnorm/add_1;resnet50_1/conv4_block3_2_conv_1/convolution;,154 155 156,1204224,115605504
+resnet50_1/conv4_block3_3_bn_1/batchnorm/add_1;resnet50_1/conv4_block3_3_conv_1/convolution;,154 156 157,1806336,51380224
+resnet50_1/conv4_block3_out_1/Relu;resnet50_1/conv4_block3_add_1/Add,154 157 158,2408448,200704
+resnet50_1/conv4_block4_1_relu_1/Relu;resnet50_1/conv4_block4_1_bn_1/batchnorm/add_1;resnet50_1/conv4_block4_1_conv_1/convolution;,158 159,1003520,51380224
+resnet50_1/conv4_block4_2_relu_1/Relu;resnet50_1/conv4_block4_2_bn_1/batchnorm/add_1;resnet50_1/conv4_block4_2_conv_1/convolution;,158 159 160,1204224,115605504
+resnet50_1/conv4_block4_3_bn_1/batchnorm/add_1;resnet50_1/conv4_block4_3_bn_1/batchnorm/mul_1;;resnet50_1/conv4_block4_3_conv_1/BiasAdd;resnet50_1/conv4_block4_3_conv_1/convolution,158 160 161,1806336,51380224
+resnet50_1/conv4_block4_out_1/Relu;resnet50_1/conv4_block4_add_1/Add,158 161 162,2408448,200704
+resnet50_1/conv4_block5_1_relu_1/Relu;resnet50_1/conv4_block5_1_bn_1/batchnorm/add_1;resnet50_1/conv4_block5_1_conv_1/convolution;,162 163,1003520,51380224
+resnet50_1/conv4_block5_2_relu_1/Relu;resnet50_1/conv4_block5_2_bn_1/batchnorm/add_1;resnet50_1/conv4_block5_2_conv_1/convolution;,162 163 164,1204224,115605504
+resnet50_1/conv4_block5_3_bn_1/batchnorm/add_1;resnet50_1/conv4_block5_3_bn_1/batchnorm/mul_1;;resnet50_1/conv4_block5_3_conv_1/BiasAdd;resnet50_1/conv4_block5_3_conv_1/convolution,162 164 165,1806336,51380224
+resnet50_1/conv4_block5_out_1/Relu;resnet50_1/conv4_block5_add_1/Add,162 165 166,2408448,200704
+resnet50_1/conv4_block6_1_relu_1/Relu;resnet50_1/conv4_block6_1_bn_1/batchnorm/add_1;resnet50_1/conv4_block6_1_conv_1/convolution;,166 167,1003520,51380224
+resnet50_1/conv4_block6_2_relu_1/Relu;resnet50_1/conv4_block6_2_bn_1/batchnorm/add_1;resnet50_1/conv4_block6_2_conv_1/convolution;,166 167 168,1204224,115605504
+resnet50_1/conv4_block6_3_bn_1/batchnorm/add_1;resnet50_1/conv4_block6_3_conv_1/convolution;,166 168 169,1806336,51380224
+resnet50_1/conv4_block6_out_1/Relu;resnet50_1/conv4_block6_add_1/Add,166 169 170,2408448,200704
+resnet50_1/conv5_block1_0_bn_1/batchnorm/add_1;resnet50_1/conv5_block1_0_conv_1/convolution;,170 171,1204224,102760448
+resnet50_1/conv5_block1_1_relu_1/Relu;resnet50_1/conv5_block1_1_bn_1/batchnorm/add_1;resnet50_1/conv5_block1_1_conv_1/convolution;,170 171 172,1304576,25690112
+resnet50_1/conv5_block1_2_relu_1/Relu;resnet50_1/conv5_block1_2_bn_1/batchnorm/add_1;resnet50_1/conv5_block1_2_conv_1/convolution;,171 172 173,602112,115605504
+resnet50_1/conv5_block1_3_bn_1/batchnorm/add_1;resnet50_1/conv5_block1_3_conv_1/convolution;,171 173 174,903168,51380224
+resnet50_1/conv5_block1_out_1/Relu;resnet50_1/conv5_block1_add_1/Add,171 174 175,1204224,100352
+resnet50_1/conv5_block2_1_relu_1/Relu;resnet50_1/conv5_block2_1_bn_1/batchnorm/add_1;resnet50_1/conv5_block2_1_conv_1/convolution;,175 176,501760,51380224
+resnet50_1/conv5_block2_2_relu_1/Relu;resnet50_1/conv5_block2_2_bn_1/batchnorm/add_1;resnet50_1/conv5_block2_2_conv_1/convolution;,175 176 177,602112,115605504
+resnet50_1/conv5_block2_3_bn_1/batchnorm/add_1;resnet50_1/conv5_block2_3_conv_1/convolution;,175 177 178,903168,51380224
+resnet50_1/conv5_block2_out_1/Relu;resnet50_1/conv5_block2_add_1/Add,175 178 179,1204224,100352
+resnet50_1/conv5_block3_1_relu_1/Relu;resnet50_1/conv5_block3_1_bn_1/batchnorm/add_1;resnet50_1/conv5_block3_1_conv_1/convolution;,179 180,501760,51380224
+resnet50_1/conv5_block3_2_relu_1/Relu;resnet50_1/conv5_block3_2_bn_1/batchnorm/add_1;resnet50_1/conv5_block3_2_conv_1/convolution;,179 180 181,602112,115605504
+resnet50_1/conv5_block3_3_bn_1/batchnorm/add_1;resnet50_1/conv5_block3_3_conv_1/convolution;,179 181 182,903168,51380224
+resnet50_1/conv5_block3_out_1/Relu;resnet50_1/conv5_block3_add_1/Add,179 182 183,1204224,100352
+resnet50_1/avg_pool_1/Mean,183 184,409600,100352
+resnet50_1/predictions_1/MatMul;resnet50_1/predictions_1/BiasAdd,184 185,12192,2048000
+StatefulPartitionedCall_1:0,185 186,8000,0

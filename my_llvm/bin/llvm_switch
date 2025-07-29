@@ -1,0 +1,5 @@
+#!/bin/bash
+LLVM_BUILD=/home/jueun/park/IREE/llvm-project/mlir-build
+LLVM_PASS=$LLVM_BUILD/lib/SwitchCasePass.so
+
+$LLVM_BUILD/bin/opt -load-pass-plugin=$LLVM_PASS -passes="SwitchCase" -S "$1" -o "${1%.ll}_switch.ll"

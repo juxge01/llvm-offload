@@ -1,0 +1,626 @@
+Id,Name,Shape,Size
+0,serving_default_keras_tensor:0,1 384 384 3,1769472
+354,efficientnetv2-s_1/rescaling_1/mul,1 384 384 3,1769472
+355,efficientnetv2-s_1/rescaling_1/add,1 384 384 3,1769472
+356,efficientnetv2-s_1/stem_bn_1/batchnorm/add_1;efficientnetv2-s_1/stem_conv_1/convolution;efficientnetv2-s_1/stem_bn_1/batchnorm/sub,1 192 192 24,3538944
+357,efficientnetv2-s_1/stem_activation_1/Sigmoid,1 192 192 24,3538944
+358,efficientnetv2-s_1/stem_activation_1/mul_1,1 192 192 24,3538944
+359,efficientnetv2-s_1/block1a_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block1a_project_conv_1/convolution;efficientnetv2-s_1/block1a_project_bn_1/batchnorm/sub,1 192 192 24,3538944
+360,efficientnetv2-s_1/block1a_project_activation_1/Sigmoid,1 192 192 24,3538944
+361,efficientnetv2-s_1/block1a_project_activation_1/mul_1,1 192 192 24,3538944
+362,efficientnetv2-s_1/block1a_add_1/Add,1 192 192 24,3538944
+363,efficientnetv2-s_1/block1b_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block1b_project_conv_1/convolution;efficientnetv2-s_1/block1b_project_bn_1/batchnorm/sub,1 192 192 24,3538944
+364,efficientnetv2-s_1/block1b_project_activation_1/Sigmoid,1 192 192 24,3538944
+365,efficientnetv2-s_1/block1b_project_activation_1/mul_1,1 192 192 24,3538944
+366,efficientnetv2-s_1/block1b_add_1/Add,1 192 192 24,3538944
+367,efficientnetv2-s_1/block2a_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2a_expand_conv_1/convolution;efficientnetv2-s_1/block2a_expand_bn_1/batchnorm/sub,1 96 96 96,3538944
+368,efficientnetv2-s_1/block2a_expand_activation_1/Sigmoid,1 96 96 96,3538944
+369,efficientnetv2-s_1/block2a_expand_activation_1/mul_1,1 96 96 96,3538944
+370,efficientnetv2-s_1/block2a_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2a_project_conv_1/convolution;efficientnetv2-s_1/block2a_project_bn_1/batchnorm/sub,1 96 96 48,1769472
+371,efficientnetv2-s_1/block2b_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2b_expand_conv_1/convolution;efficientnetv2-s_1/block2b_expand_bn_1/batchnorm/sub,1 96 96 192,7077888
+372,efficientnetv2-s_1/block2b_expand_activation_1/Sigmoid,1 96 96 192,7077888
+373,efficientnetv2-s_1/block2b_expand_activation_1/mul_1,1 96 96 192,7077888
+374,efficientnetv2-s_1/block2b_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2b_project_conv_1/convolution;efficientnetv2-s_1/block2b_project_bn_1/batchnorm/sub,1 96 96 48,1769472
+375,efficientnetv2-s_1/block2b_add_1/Add,1 96 96 48,1769472
+376,efficientnetv2-s_1/block2c_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2c_expand_conv_1/convolution;efficientnetv2-s_1/block2c_expand_bn_1/batchnorm/sub,1 96 96 192,7077888
+377,efficientnetv2-s_1/block2c_expand_activation_1/Sigmoid,1 96 96 192,7077888
+378,efficientnetv2-s_1/block2c_expand_activation_1/mul_1,1 96 96 192,7077888
+379,efficientnetv2-s_1/block2c_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2c_project_conv_1/convolution;efficientnetv2-s_1/block2c_project_bn_1/batchnorm/sub,1 96 96 48,1769472
+380,efficientnetv2-s_1/block2c_add_1/Add,1 96 96 48,1769472
+381,efficientnetv2-s_1/block2d_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2d_expand_conv_1/convolution;efficientnetv2-s_1/block2d_expand_bn_1/batchnorm/sub,1 96 96 192,7077888
+382,efficientnetv2-s_1/block2d_expand_activation_1/Sigmoid,1 96 96 192,7077888
+383,efficientnetv2-s_1/block2d_expand_activation_1/mul_1,1 96 96 192,7077888
+384,efficientnetv2-s_1/block2d_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block2d_project_conv_1/convolution;efficientnetv2-s_1/block2d_project_bn_1/batchnorm/sub,1 96 96 48,1769472
+385,efficientnetv2-s_1/block2d_add_1/Add,1 96 96 48,1769472
+386,efficientnetv2-s_1/block3a_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3a_expand_conv_1/convolution;efficientnetv2-s_1/block3a_expand_bn_1/batchnorm/sub,1 48 48 192,1769472
+387,efficientnetv2-s_1/block3a_expand_activation_1/Sigmoid,1 48 48 192,1769472
+388,efficientnetv2-s_1/block3a_expand_activation_1/mul_1,1 48 48 192,1769472
+389,efficientnetv2-s_1/block3a_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3a_project_conv_1/convolution;efficientnetv2-s_1/block3a_project_bn_1/batchnorm/sub,1 48 48 64,589824
+390,efficientnetv2-s_1/block3b_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3b_expand_conv_1/convolution;efficientnetv2-s_1/block3b_expand_bn_1/batchnorm/sub,1 48 48 256,2359296
+391,efficientnetv2-s_1/block3b_expand_activation_1/Sigmoid,1 48 48 256,2359296
+392,efficientnetv2-s_1/block3b_expand_activation_1/mul_1,1 48 48 256,2359296
+393,efficientnetv2-s_1/block3b_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3b_project_conv_1/convolution;efficientnetv2-s_1/block3b_project_bn_1/batchnorm/sub,1 48 48 64,589824
+394,efficientnetv2-s_1/block3b_add_1/Add,1 48 48 64,589824
+395,efficientnetv2-s_1/block3c_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3c_expand_conv_1/convolution;efficientnetv2-s_1/block3c_expand_bn_1/batchnorm/sub,1 48 48 256,2359296
+396,efficientnetv2-s_1/block3c_expand_activation_1/Sigmoid,1 48 48 256,2359296
+397,efficientnetv2-s_1/block3c_expand_activation_1/mul_1,1 48 48 256,2359296
+398,efficientnetv2-s_1/block3c_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3c_project_conv_1/convolution;efficientnetv2-s_1/block3c_project_bn_1/batchnorm/sub,1 48 48 64,589824
+399,efficientnetv2-s_1/block3c_add_1/Add,1 48 48 64,589824
+400,efficientnetv2-s_1/block3d_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3d_expand_conv_1/convolution;efficientnetv2-s_1/block3d_expand_bn_1/batchnorm/sub,1 48 48 256,2359296
+401,efficientnetv2-s_1/block3d_expand_activation_1/Sigmoid,1 48 48 256,2359296
+402,efficientnetv2-s_1/block3d_expand_activation_1/mul_1,1 48 48 256,2359296
+403,efficientnetv2-s_1/block3d_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block3d_project_conv_1/convolution;efficientnetv2-s_1/block3d_project_bn_1/batchnorm/sub,1 48 48 64,589824
+404,efficientnetv2-s_1/block3d_add_1/Add,1 48 48 64,589824
+405,efficientnetv2-s_1/block4a_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4a_expand_conv_1/convolution;efficientnetv2-s_1/block4a_expand_bn_1/batchnorm/sub,1 48 48 256,2359296
+406,efficientnetv2-s_1/block4a_expand_activation_1/Sigmoid,1 48 48 256,2359296
+407,efficientnetv2-s_1/block4a_expand_activation_1/mul_1,1 48 48 256,2359296
+408,efficientnetv2-s_1/block4a_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4a_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block4a_dwconv2_1/depthwise;efficientnetv2-s_1/block4a_bn_1/batchnorm/mul;efficientnetv2-s_1/block4a_bn_1/batchnorm/sub,1 24 24 256,589824
+409,efficientnetv2-s_1/block4a_activation_1/Sigmoid,1 24 24 256,589824
+410,efficientnetv2-s_1/block4a_activation_1/mul_1,1 24 24 256,589824
+411,efficientnetv2-s_1/block4a_se_squeeze_1/Mean,1 256,1024
+412,efficientnetv2-s_1/block4a_se_reshape_1/Shape,2,8
+413,efficientnetv2-s_1/block4a_se_reshape_1/strided_slice,,4
+414,efficientnetv2-s_1/block4a_se_reshape_1/Reshape/shape,4,16
+415,efficientnetv2-s_1/block4a_se_reshape_1/Reshape,1 1 1 256,1024
+416,efficientnetv2-s_1/block4a_se_reduce_1/BiasAdd;efficientnetv2-s_1/block4a_se_reduce_1/convolution;efficientnetv2-s_1/block4a_se_reduce_1/Squeeze,1 1 1 16,64
+417,efficientnetv2-s_1/block4a_se_reduce_1/Sigmoid,1 1 1 16,64
+418,efficientnetv2-s_1/block4a_se_reduce_1/mul_1,1 1 1 16,64
+419,efficientnetv2-s_1/block4a_se_expand_1/BiasAdd;efficientnetv2-s_1/block4a_se_expand_1/convolution;efficientnetv2-s_1/block4a_se_expand_1/Squeeze,1 1 1 256,1024
+420,efficientnetv2-s_1/block4a_se_expand_1/Sigmoid,1 1 1 256,1024
+421,efficientnetv2-s_1/block4a_se_excite_1/Mul,1 24 24 256,589824
+422,efficientnetv2-s_1/block4a_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4a_project_conv_1/convolution;efficientnetv2-s_1/block4a_project_bn_1/batchnorm/sub,1 24 24 128,294912
+423,efficientnetv2-s_1/block4b_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4b_expand_conv_1/convolution;efficientnetv2-s_1/block4b_expand_bn_1/batchnorm/sub,1 24 24 512,1179648
+424,efficientnetv2-s_1/block4b_expand_activation_1/Sigmoid,1 24 24 512,1179648
+425,efficientnetv2-s_1/block4b_expand_activation_1/mul_1,1 24 24 512,1179648
+426,efficientnetv2-s_1/block4b_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4b_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block4b_dwconv2_1/depthwise;efficientnetv2-s_1/block4b_bn_1/batchnorm/mul;efficientnetv2-s_1/block4b_bn_1/batchnorm/sub,1 24 24 512,1179648
+427,efficientnetv2-s_1/block4b_activation_1/Sigmoid,1 24 24 512,1179648
+428,efficientnetv2-s_1/block4b_activation_1/mul_1,1 24 24 512,1179648
+429,efficientnetv2-s_1/block4b_se_squeeze_1/Mean,1 512,2048
+430,efficientnetv2-s_1/block4b_se_reshape_1/Shape,2,8
+431,efficientnetv2-s_1/block4b_se_reshape_1/strided_slice,,4
+432,efficientnetv2-s_1/block4b_se_reshape_1/Reshape/shape,4,16
+433,efficientnetv2-s_1/block4b_se_reshape_1/Reshape,1 1 1 512,2048
+434,efficientnetv2-s_1/block4b_se_reduce_1/BiasAdd;efficientnetv2-s_1/block4b_se_reduce_1/convolution;efficientnetv2-s_1/block4b_se_reduce_1/Squeeze,1 1 1 32,128
+435,efficientnetv2-s_1/block4b_se_reduce_1/Sigmoid,1 1 1 32,128
+436,efficientnetv2-s_1/block4b_se_reduce_1/mul_1,1 1 1 32,128
+437,efficientnetv2-s_1/block4b_se_expand_1/BiasAdd;efficientnetv2-s_1/block4b_se_expand_1/convolution;efficientnetv2-s_1/block4b_se_expand_1/Squeeze,1 1 1 512,2048
+438,efficientnetv2-s_1/block4b_se_expand_1/Sigmoid,1 1 1 512,2048
+439,efficientnetv2-s_1/block4b_se_excite_1/Mul,1 24 24 512,1179648
+440,efficientnetv2-s_1/block4b_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4b_project_conv_1/convolution;efficientnetv2-s_1/block4b_project_bn_1/batchnorm/sub,1 24 24 128,294912
+441,efficientnetv2-s_1/block4b_add_1/Add,1 24 24 128,294912
+442,efficientnetv2-s_1/block4c_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4c_expand_conv_1/convolution;efficientnetv2-s_1/block4c_expand_bn_1/batchnorm/sub,1 24 24 512,1179648
+443,efficientnetv2-s_1/block4c_expand_activation_1/Sigmoid,1 24 24 512,1179648
+444,efficientnetv2-s_1/block4c_expand_activation_1/mul_1,1 24 24 512,1179648
+445,efficientnetv2-s_1/block4c_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4c_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block4c_dwconv2_1/depthwise;efficientnetv2-s_1/block4c_bn_1/batchnorm/mul;efficientnetv2-s_1/block4c_bn_1/batchnorm/sub,1 24 24 512,1179648
+446,efficientnetv2-s_1/block4c_activation_1/Sigmoid,1 24 24 512,1179648
+447,efficientnetv2-s_1/block4c_activation_1/mul_1,1 24 24 512,1179648
+448,efficientnetv2-s_1/block4c_se_squeeze_1/Mean,1 512,2048
+449,efficientnetv2-s_1/block4c_se_reshape_1/Shape,2,8
+450,efficientnetv2-s_1/block4c_se_reshape_1/strided_slice,,4
+451,efficientnetv2-s_1/block4c_se_reshape_1/Reshape/shape,4,16
+452,efficientnetv2-s_1/block4c_se_reshape_1/Reshape,1 1 1 512,2048
+453,efficientnetv2-s_1/block4c_se_reduce_1/BiasAdd;efficientnetv2-s_1/block4c_se_reduce_1/convolution;efficientnetv2-s_1/block4c_se_reduce_1/Squeeze,1 1 1 32,128
+454,efficientnetv2-s_1/block4c_se_reduce_1/Sigmoid,1 1 1 32,128
+455,efficientnetv2-s_1/block4c_se_reduce_1/mul_1,1 1 1 32,128
+456,efficientnetv2-s_1/block4c_se_expand_1/BiasAdd;efficientnetv2-s_1/block4c_se_expand_1/convolution;efficientnetv2-s_1/block4c_se_expand_1/Squeeze,1 1 1 512,2048
+457,efficientnetv2-s_1/block4c_se_expand_1/Sigmoid,1 1 1 512,2048
+458,efficientnetv2-s_1/block4c_se_excite_1/Mul,1 24 24 512,1179648
+459,efficientnetv2-s_1/block4c_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4c_project_conv_1/convolution;efficientnetv2-s_1/block4c_project_bn_1/batchnorm/sub,1 24 24 128,294912
+460,efficientnetv2-s_1/block4c_add_1/Add,1 24 24 128,294912
+461,efficientnetv2-s_1/block4d_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4d_expand_conv_1/convolution;efficientnetv2-s_1/block4d_expand_bn_1/batchnorm/sub,1 24 24 512,1179648
+462,efficientnetv2-s_1/block4d_expand_activation_1/Sigmoid,1 24 24 512,1179648
+463,efficientnetv2-s_1/block4d_expand_activation_1/mul_1,1 24 24 512,1179648
+464,efficientnetv2-s_1/block4d_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4d_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block4d_dwconv2_1/depthwise;efficientnetv2-s_1/block4d_bn_1/batchnorm/mul;efficientnetv2-s_1/block4d_bn_1/batchnorm/sub,1 24 24 512,1179648
+465,efficientnetv2-s_1/block4d_activation_1/Sigmoid,1 24 24 512,1179648
+466,efficientnetv2-s_1/block4d_activation_1/mul_1,1 24 24 512,1179648
+467,efficientnetv2-s_1/block4d_se_squeeze_1/Mean,1 512,2048
+468,efficientnetv2-s_1/block4d_se_reshape_1/Shape,2,8
+469,efficientnetv2-s_1/block4d_se_reshape_1/strided_slice,,4
+470,efficientnetv2-s_1/block4d_se_reshape_1/Reshape/shape,4,16
+471,efficientnetv2-s_1/block4d_se_reshape_1/Reshape,1 1 1 512,2048
+472,efficientnetv2-s_1/block4d_se_reduce_1/BiasAdd;efficientnetv2-s_1/block4d_se_reduce_1/convolution;efficientnetv2-s_1/block4d_se_reduce_1/Squeeze,1 1 1 32,128
+473,efficientnetv2-s_1/block4d_se_reduce_1/Sigmoid,1 1 1 32,128
+474,efficientnetv2-s_1/block4d_se_reduce_1/mul_1,1 1 1 32,128
+475,efficientnetv2-s_1/block4d_se_expand_1/BiasAdd;efficientnetv2-s_1/block4d_se_expand_1/convolution;efficientnetv2-s_1/block4d_se_expand_1/Squeeze,1 1 1 512,2048
+476,efficientnetv2-s_1/block4d_se_expand_1/Sigmoid,1 1 1 512,2048
+477,efficientnetv2-s_1/block4d_se_excite_1/Mul,1 24 24 512,1179648
+478,efficientnetv2-s_1/block4d_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4d_project_conv_1/convolution;efficientnetv2-s_1/block4d_project_bn_1/batchnorm/sub,1 24 24 128,294912
+479,efficientnetv2-s_1/block4d_add_1/Add,1 24 24 128,294912
+480,efficientnetv2-s_1/block4e_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4e_expand_conv_1/convolution;efficientnetv2-s_1/block4e_expand_bn_1/batchnorm/sub,1 24 24 512,1179648
+481,efficientnetv2-s_1/block4e_expand_activation_1/Sigmoid,1 24 24 512,1179648
+482,efficientnetv2-s_1/block4e_expand_activation_1/mul_1,1 24 24 512,1179648
+483,efficientnetv2-s_1/block4e_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4e_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block4e_dwconv2_1/depthwise;efficientnetv2-s_1/block4e_bn_1/batchnorm/mul;efficientnetv2-s_1/block4e_bn_1/batchnorm/sub,1 24 24 512,1179648
+484,efficientnetv2-s_1/block4e_activation_1/Sigmoid,1 24 24 512,1179648
+485,efficientnetv2-s_1/block4e_activation_1/mul_1,1 24 24 512,1179648
+486,efficientnetv2-s_1/block4e_se_squeeze_1/Mean,1 512,2048
+487,efficientnetv2-s_1/block4e_se_reshape_1/Shape,2,8
+488,efficientnetv2-s_1/block4e_se_reshape_1/strided_slice,,4
+489,efficientnetv2-s_1/block4e_se_reshape_1/Reshape/shape,4,16
+490,efficientnetv2-s_1/block4e_se_reshape_1/Reshape,1 1 1 512,2048
+491,efficientnetv2-s_1/block4e_se_reduce_1/BiasAdd;efficientnetv2-s_1/block4e_se_reduce_1/convolution;efficientnetv2-s_1/block4e_se_reduce_1/Squeeze,1 1 1 32,128
+492,efficientnetv2-s_1/block4e_se_reduce_1/Sigmoid,1 1 1 32,128
+493,efficientnetv2-s_1/block4e_se_reduce_1/mul_1,1 1 1 32,128
+494,efficientnetv2-s_1/block4e_se_expand_1/BiasAdd;efficientnetv2-s_1/block4e_se_expand_1/convolution;efficientnetv2-s_1/block4e_se_expand_1/Squeeze,1 1 1 512,2048
+495,efficientnetv2-s_1/block4e_se_expand_1/Sigmoid,1 1 1 512,2048
+496,efficientnetv2-s_1/block4e_se_excite_1/Mul,1 24 24 512,1179648
+497,efficientnetv2-s_1/block4e_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4e_project_conv_1/convolution;efficientnetv2-s_1/block4e_project_bn_1/batchnorm/sub,1 24 24 128,294912
+498,efficientnetv2-s_1/block4e_add_1/Add,1 24 24 128,294912
+499,efficientnetv2-s_1/block4f_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4f_expand_conv_1/convolution;efficientnetv2-s_1/block4f_expand_bn_1/batchnorm/sub,1 24 24 512,1179648
+500,efficientnetv2-s_1/block4f_expand_activation_1/Sigmoid,1 24 24 512,1179648
+501,efficientnetv2-s_1/block4f_expand_activation_1/mul_1,1 24 24 512,1179648
+502,efficientnetv2-s_1/block4f_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4f_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block4f_dwconv2_1/depthwise;efficientnetv2-s_1/block4f_bn_1/batchnorm/mul;efficientnetv2-s_1/block4f_bn_1/batchnorm/sub,1 24 24 512,1179648
+503,efficientnetv2-s_1/block4f_activation_1/Sigmoid,1 24 24 512,1179648
+504,efficientnetv2-s_1/block4f_activation_1/mul_1,1 24 24 512,1179648
+505,efficientnetv2-s_1/block4f_se_squeeze_1/Mean,1 512,2048
+506,efficientnetv2-s_1/block4f_se_reshape_1/Shape,2,8
+507,efficientnetv2-s_1/block4f_se_reshape_1/strided_slice,,4
+508,efficientnetv2-s_1/block4f_se_reshape_1/Reshape/shape,4,16
+509,efficientnetv2-s_1/block4f_se_reshape_1/Reshape,1 1 1 512,2048
+510,efficientnetv2-s_1/block4f_se_reduce_1/BiasAdd;efficientnetv2-s_1/block4f_se_reduce_1/convolution;efficientnetv2-s_1/block4f_se_reduce_1/Squeeze,1 1 1 32,128
+511,efficientnetv2-s_1/block4f_se_reduce_1/Sigmoid,1 1 1 32,128
+512,efficientnetv2-s_1/block4f_se_reduce_1/mul_1,1 1 1 32,128
+513,efficientnetv2-s_1/block4f_se_expand_1/BiasAdd;efficientnetv2-s_1/block4f_se_expand_1/convolution;efficientnetv2-s_1/block4f_se_expand_1/Squeeze,1 1 1 512,2048
+514,efficientnetv2-s_1/block4f_se_expand_1/Sigmoid,1 1 1 512,2048
+515,efficientnetv2-s_1/block4f_se_excite_1/Mul,1 24 24 512,1179648
+516,efficientnetv2-s_1/block4f_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block4f_project_conv_1/convolution;efficientnetv2-s_1/block4f_project_bn_1/batchnorm/sub,1 24 24 128,294912
+517,efficientnetv2-s_1/block4f_add_1/Add,1 24 24 128,294912
+518,efficientnetv2-s_1/block5a_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5a_expand_conv_1/convolution;efficientnetv2-s_1/block5a_expand_bn_1/batchnorm/sub,1 24 24 768,1769472
+519,efficientnetv2-s_1/block5a_expand_activation_1/Sigmoid,1 24 24 768,1769472
+520,efficientnetv2-s_1/block5a_expand_activation_1/mul_1,1 24 24 768,1769472
+521,efficientnetv2-s_1/block5a_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5a_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5a_dwconv2_1/depthwise;efficientnetv2-s_1/block5a_bn_1/batchnorm/mul;efficientnetv2-s_1/block5a_bn_1/batchnorm/sub,1 24 24 768,1769472
+522,efficientnetv2-s_1/block5a_activation_1/Sigmoid,1 24 24 768,1769472
+523,efficientnetv2-s_1/block5a_activation_1/mul_1,1 24 24 768,1769472
+524,efficientnetv2-s_1/block5a_se_squeeze_1/Mean,1 768,3072
+525,efficientnetv2-s_1/block5a_se_reshape_1/Shape,2,8
+526,efficientnetv2-s_1/block5a_se_reshape_1/strided_slice,,4
+527,efficientnetv2-s_1/block5a_se_reshape_1/Reshape/shape,4,16
+528,efficientnetv2-s_1/block5a_se_reshape_1/Reshape,1 1 1 768,3072
+529,efficientnetv2-s_1/block5a_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5a_se_reduce_1/convolution;efficientnetv2-s_1/block5a_se_reduce_1/Squeeze,1 1 1 32,128
+530,efficientnetv2-s_1/block5a_se_reduce_1/Sigmoid,1 1 1 32,128
+531,efficientnetv2-s_1/block5a_se_reduce_1/mul_1,1 1 1 32,128
+532,efficientnetv2-s_1/block5a_se_expand_1/BiasAdd;efficientnetv2-s_1/block5a_se_expand_1/convolution;efficientnetv2-s_1/block5a_se_expand_1/Squeeze,1 1 1 768,3072
+533,efficientnetv2-s_1/block5a_se_expand_1/Sigmoid,1 1 1 768,3072
+534,efficientnetv2-s_1/block5a_se_excite_1/Mul,1 24 24 768,1769472
+535,efficientnetv2-s_1/block5a_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5a_project_conv_1/convolution;efficientnetv2-s_1/block5a_project_bn_1/batchnorm/sub,1 24 24 160,368640
+536,efficientnetv2-s_1/block5b_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5b_expand_conv_1/convolution;efficientnetv2-s_1/block5b_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+537,efficientnetv2-s_1/block5b_expand_activation_1/Sigmoid,1 24 24 960,2211840
+538,efficientnetv2-s_1/block5b_expand_activation_1/mul_1,1 24 24 960,2211840
+539,efficientnetv2-s_1/block5b_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5b_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5b_dwconv2_1/depthwise;efficientnetv2-s_1/block5b_bn_1/batchnorm/mul;efficientnetv2-s_1/block5b_bn_1/batchnorm/sub,1 24 24 960,2211840
+540,efficientnetv2-s_1/block5b_activation_1/Sigmoid,1 24 24 960,2211840
+541,efficientnetv2-s_1/block5b_activation_1/mul_1,1 24 24 960,2211840
+542,efficientnetv2-s_1/block5b_se_squeeze_1/Mean,1 960,3840
+543,efficientnetv2-s_1/block5b_se_reshape_1/Shape,2,8
+544,efficientnetv2-s_1/block5b_se_reshape_1/strided_slice,,4
+545,efficientnetv2-s_1/block5b_se_reshape_1/Reshape/shape,4,16
+546,efficientnetv2-s_1/block5b_se_reshape_1/Reshape,1 1 1 960,3840
+547,efficientnetv2-s_1/block5b_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5b_se_reduce_1/convolution;efficientnetv2-s_1/block5b_se_reduce_1/Squeeze,1 1 1 40,160
+548,efficientnetv2-s_1/block5b_se_reduce_1/Sigmoid,1 1 1 40,160
+549,efficientnetv2-s_1/block5b_se_reduce_1/mul_1,1 1 1 40,160
+550,efficientnetv2-s_1/block5b_se_expand_1/BiasAdd;efficientnetv2-s_1/block5b_se_expand_1/convolution;efficientnetv2-s_1/block5b_se_expand_1/Squeeze,1 1 1 960,3840
+551,efficientnetv2-s_1/block5b_se_expand_1/Sigmoid,1 1 1 960,3840
+552,efficientnetv2-s_1/block5b_se_excite_1/Mul,1 24 24 960,2211840
+553,efficientnetv2-s_1/block5b_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5b_project_conv_1/convolution;efficientnetv2-s_1/block5b_project_bn_1/batchnorm/sub,1 24 24 160,368640
+554,efficientnetv2-s_1/block5b_add_1/Add,1 24 24 160,368640
+555,efficientnetv2-s_1/block5c_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5c_expand_conv_1/convolution;efficientnetv2-s_1/block5c_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+556,efficientnetv2-s_1/block5c_expand_activation_1/Sigmoid,1 24 24 960,2211840
+557,efficientnetv2-s_1/block5c_expand_activation_1/mul_1,1 24 24 960,2211840
+558,efficientnetv2-s_1/block5c_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5c_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5c_dwconv2_1/depthwise;efficientnetv2-s_1/block5c_bn_1/batchnorm/mul;efficientnetv2-s_1/block5c_bn_1/batchnorm/sub,1 24 24 960,2211840
+559,efficientnetv2-s_1/block5c_activation_1/Sigmoid,1 24 24 960,2211840
+560,efficientnetv2-s_1/block5c_activation_1/mul_1,1 24 24 960,2211840
+561,efficientnetv2-s_1/block5c_se_squeeze_1/Mean,1 960,3840
+562,efficientnetv2-s_1/block5c_se_reshape_1/Shape,2,8
+563,efficientnetv2-s_1/block5c_se_reshape_1/strided_slice,,4
+564,efficientnetv2-s_1/block5c_se_reshape_1/Reshape/shape,4,16
+565,efficientnetv2-s_1/block5c_se_reshape_1/Reshape,1 1 1 960,3840
+566,efficientnetv2-s_1/block5c_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5c_se_reduce_1/convolution;efficientnetv2-s_1/block5c_se_reduce_1/Squeeze,1 1 1 40,160
+567,efficientnetv2-s_1/block5c_se_reduce_1/Sigmoid,1 1 1 40,160
+568,efficientnetv2-s_1/block5c_se_reduce_1/mul_1,1 1 1 40,160
+569,efficientnetv2-s_1/block5c_se_expand_1/BiasAdd;efficientnetv2-s_1/block5c_se_expand_1/convolution;efficientnetv2-s_1/block5c_se_expand_1/Squeeze,1 1 1 960,3840
+570,efficientnetv2-s_1/block5c_se_expand_1/Sigmoid,1 1 1 960,3840
+571,efficientnetv2-s_1/block5c_se_excite_1/Mul,1 24 24 960,2211840
+572,efficientnetv2-s_1/block5c_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5c_project_conv_1/convolution;efficientnetv2-s_1/block5c_project_bn_1/batchnorm/sub,1 24 24 160,368640
+573,efficientnetv2-s_1/block5c_add_1/Add,1 24 24 160,368640
+574,efficientnetv2-s_1/block5d_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5d_expand_conv_1/convolution;efficientnetv2-s_1/block5d_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+575,efficientnetv2-s_1/block5d_expand_activation_1/Sigmoid,1 24 24 960,2211840
+576,efficientnetv2-s_1/block5d_expand_activation_1/mul_1,1 24 24 960,2211840
+577,efficientnetv2-s_1/block5d_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5d_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5d_dwconv2_1/depthwise;efficientnetv2-s_1/block5d_bn_1/batchnorm/mul;efficientnetv2-s_1/block5d_bn_1/batchnorm/sub,1 24 24 960,2211840
+578,efficientnetv2-s_1/block5d_activation_1/Sigmoid,1 24 24 960,2211840
+579,efficientnetv2-s_1/block5d_activation_1/mul_1,1 24 24 960,2211840
+580,efficientnetv2-s_1/block5d_se_squeeze_1/Mean,1 960,3840
+581,efficientnetv2-s_1/block5d_se_reshape_1/Shape,2,8
+582,efficientnetv2-s_1/block5d_se_reshape_1/strided_slice,,4
+583,efficientnetv2-s_1/block5d_se_reshape_1/Reshape/shape,4,16
+584,efficientnetv2-s_1/block5d_se_reshape_1/Reshape,1 1 1 960,3840
+585,efficientnetv2-s_1/block5d_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5d_se_reduce_1/convolution;efficientnetv2-s_1/block5d_se_reduce_1/Squeeze,1 1 1 40,160
+586,efficientnetv2-s_1/block5d_se_reduce_1/Sigmoid,1 1 1 40,160
+587,efficientnetv2-s_1/block5d_se_reduce_1/mul_1,1 1 1 40,160
+588,efficientnetv2-s_1/block5d_se_expand_1/BiasAdd;efficientnetv2-s_1/block5d_se_expand_1/convolution;efficientnetv2-s_1/block5d_se_expand_1/Squeeze,1 1 1 960,3840
+589,efficientnetv2-s_1/block5d_se_expand_1/Sigmoid,1 1 1 960,3840
+590,efficientnetv2-s_1/block5d_se_excite_1/Mul,1 24 24 960,2211840
+591,efficientnetv2-s_1/block5d_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5d_project_conv_1/convolution;efficientnetv2-s_1/block5d_project_bn_1/batchnorm/sub,1 24 24 160,368640
+592,efficientnetv2-s_1/block5d_add_1/Add,1 24 24 160,368640
+593,efficientnetv2-s_1/block5e_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5e_expand_conv_1/convolution;efficientnetv2-s_1/block5e_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+594,efficientnetv2-s_1/block5e_expand_activation_1/Sigmoid,1 24 24 960,2211840
+595,efficientnetv2-s_1/block5e_expand_activation_1/mul_1,1 24 24 960,2211840
+596,efficientnetv2-s_1/block5e_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5e_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5e_dwconv2_1/depthwise;efficientnetv2-s_1/block5e_bn_1/batchnorm/mul;efficientnetv2-s_1/block5e_bn_1/batchnorm/sub,1 24 24 960,2211840
+597,efficientnetv2-s_1/block5e_activation_1/Sigmoid,1 24 24 960,2211840
+598,efficientnetv2-s_1/block5e_activation_1/mul_1,1 24 24 960,2211840
+599,efficientnetv2-s_1/block5e_se_squeeze_1/Mean,1 960,3840
+600,efficientnetv2-s_1/block5e_se_reshape_1/Shape,2,8
+601,efficientnetv2-s_1/block5e_se_reshape_1/strided_slice,,4
+602,efficientnetv2-s_1/block5e_se_reshape_1/Reshape/shape,4,16
+603,efficientnetv2-s_1/block5e_se_reshape_1/Reshape,1 1 1 960,3840
+604,efficientnetv2-s_1/block5e_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5e_se_reduce_1/convolution;efficientnetv2-s_1/block5e_se_reduce_1/Squeeze,1 1 1 40,160
+605,efficientnetv2-s_1/block5e_se_reduce_1/Sigmoid,1 1 1 40,160
+606,efficientnetv2-s_1/block5e_se_reduce_1/mul_1,1 1 1 40,160
+607,efficientnetv2-s_1/block5e_se_expand_1/BiasAdd;efficientnetv2-s_1/block5e_se_expand_1/convolution;efficientnetv2-s_1/block5e_se_expand_1/Squeeze,1 1 1 960,3840
+608,efficientnetv2-s_1/block5e_se_expand_1/Sigmoid,1 1 1 960,3840
+609,efficientnetv2-s_1/block5e_se_excite_1/Mul,1 24 24 960,2211840
+610,efficientnetv2-s_1/block5e_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5e_project_conv_1/convolution;efficientnetv2-s_1/block5e_project_bn_1/batchnorm/sub,1 24 24 160,368640
+611,efficientnetv2-s_1/block5e_add_1/Add,1 24 24 160,368640
+612,efficientnetv2-s_1/block5f_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5f_expand_conv_1/convolution;efficientnetv2-s_1/block5f_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+613,efficientnetv2-s_1/block5f_expand_activation_1/Sigmoid,1 24 24 960,2211840
+614,efficientnetv2-s_1/block5f_expand_activation_1/mul_1,1 24 24 960,2211840
+615,efficientnetv2-s_1/block5f_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5f_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5f_dwconv2_1/depthwise;efficientnetv2-s_1/block5f_bn_1/batchnorm/mul;efficientnetv2-s_1/block5f_bn_1/batchnorm/sub,1 24 24 960,2211840
+616,efficientnetv2-s_1/block5f_activation_1/Sigmoid,1 24 24 960,2211840
+617,efficientnetv2-s_1/block5f_activation_1/mul_1,1 24 24 960,2211840
+618,efficientnetv2-s_1/block5f_se_squeeze_1/Mean,1 960,3840
+619,efficientnetv2-s_1/block5f_se_reshape_1/Shape,2,8
+620,efficientnetv2-s_1/block5f_se_reshape_1/strided_slice,,4
+621,efficientnetv2-s_1/block5f_se_reshape_1/Reshape/shape,4,16
+622,efficientnetv2-s_1/block5f_se_reshape_1/Reshape,1 1 1 960,3840
+623,efficientnetv2-s_1/block5f_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5f_se_reduce_1/convolution;efficientnetv2-s_1/block5f_se_reduce_1/Squeeze,1 1 1 40,160
+624,efficientnetv2-s_1/block5f_se_reduce_1/Sigmoid,1 1 1 40,160
+625,efficientnetv2-s_1/block5f_se_reduce_1/mul_1,1 1 1 40,160
+626,efficientnetv2-s_1/block5f_se_expand_1/BiasAdd;efficientnetv2-s_1/block5f_se_expand_1/convolution;efficientnetv2-s_1/block5f_se_expand_1/Squeeze,1 1 1 960,3840
+627,efficientnetv2-s_1/block5f_se_expand_1/Sigmoid,1 1 1 960,3840
+628,efficientnetv2-s_1/block5f_se_excite_1/Mul,1 24 24 960,2211840
+629,efficientnetv2-s_1/block5f_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5f_project_conv_1/convolution;efficientnetv2-s_1/block5f_project_bn_1/batchnorm/sub,1 24 24 160,368640
+630,efficientnetv2-s_1/block5f_add_1/Add,1 24 24 160,368640
+631,efficientnetv2-s_1/block5g_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5g_expand_conv_1/convolution;efficientnetv2-s_1/block5g_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+632,efficientnetv2-s_1/block5g_expand_activation_1/Sigmoid,1 24 24 960,2211840
+633,efficientnetv2-s_1/block5g_expand_activation_1/mul_1,1 24 24 960,2211840
+634,efficientnetv2-s_1/block5g_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5g_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5g_dwconv2_1/depthwise;efficientnetv2-s_1/block5g_bn_1/batchnorm/mul;efficientnetv2-s_1/block5g_bn_1/batchnorm/sub,1 24 24 960,2211840
+635,efficientnetv2-s_1/block5g_activation_1/Sigmoid,1 24 24 960,2211840
+636,efficientnetv2-s_1/block5g_activation_1/mul_1,1 24 24 960,2211840
+637,efficientnetv2-s_1/block5g_se_squeeze_1/Mean,1 960,3840
+638,efficientnetv2-s_1/block5g_se_reshape_1/Shape,2,8
+639,efficientnetv2-s_1/block5g_se_reshape_1/strided_slice,,4
+640,efficientnetv2-s_1/block5g_se_reshape_1/Reshape/shape,4,16
+641,efficientnetv2-s_1/block5g_se_reshape_1/Reshape,1 1 1 960,3840
+642,efficientnetv2-s_1/block5g_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5g_se_reduce_1/convolution;efficientnetv2-s_1/block5g_se_reduce_1/Squeeze,1 1 1 40,160
+643,efficientnetv2-s_1/block5g_se_reduce_1/Sigmoid,1 1 1 40,160
+644,efficientnetv2-s_1/block5g_se_reduce_1/mul_1,1 1 1 40,160
+645,efficientnetv2-s_1/block5g_se_expand_1/BiasAdd;efficientnetv2-s_1/block5g_se_expand_1/convolution;efficientnetv2-s_1/block5g_se_expand_1/Squeeze,1 1 1 960,3840
+646,efficientnetv2-s_1/block5g_se_expand_1/Sigmoid,1 1 1 960,3840
+647,efficientnetv2-s_1/block5g_se_excite_1/Mul,1 24 24 960,2211840
+648,efficientnetv2-s_1/block5g_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5g_project_conv_1/convolution;efficientnetv2-s_1/block5g_project_bn_1/batchnorm/sub,1 24 24 160,368640
+649,efficientnetv2-s_1/block5g_add_1/Add,1 24 24 160,368640
+650,efficientnetv2-s_1/block5h_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5h_expand_conv_1/convolution;efficientnetv2-s_1/block5h_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+651,efficientnetv2-s_1/block5h_expand_activation_1/Sigmoid,1 24 24 960,2211840
+652,efficientnetv2-s_1/block5h_expand_activation_1/mul_1,1 24 24 960,2211840
+653,efficientnetv2-s_1/block5h_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5h_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5h_dwconv2_1/depthwise;efficientnetv2-s_1/block5h_bn_1/batchnorm/mul;efficientnetv2-s_1/block5h_bn_1/batchnorm/sub,1 24 24 960,2211840
+654,efficientnetv2-s_1/block5h_activation_1/Sigmoid,1 24 24 960,2211840
+655,efficientnetv2-s_1/block5h_activation_1/mul_1,1 24 24 960,2211840
+656,efficientnetv2-s_1/block5h_se_squeeze_1/Mean,1 960,3840
+657,efficientnetv2-s_1/block5h_se_reshape_1/Shape,2,8
+658,efficientnetv2-s_1/block5h_se_reshape_1/strided_slice,,4
+659,efficientnetv2-s_1/block5h_se_reshape_1/Reshape/shape,4,16
+660,efficientnetv2-s_1/block5h_se_reshape_1/Reshape,1 1 1 960,3840
+661,efficientnetv2-s_1/block5h_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5h_se_reduce_1/convolution;efficientnetv2-s_1/block5h_se_reduce_1/Squeeze,1 1 1 40,160
+662,efficientnetv2-s_1/block5h_se_reduce_1/Sigmoid,1 1 1 40,160
+663,efficientnetv2-s_1/block5h_se_reduce_1/mul_1,1 1 1 40,160
+664,efficientnetv2-s_1/block5h_se_expand_1/BiasAdd;efficientnetv2-s_1/block5h_se_expand_1/convolution;efficientnetv2-s_1/block5h_se_expand_1/Squeeze,1 1 1 960,3840
+665,efficientnetv2-s_1/block5h_se_expand_1/Sigmoid,1 1 1 960,3840
+666,efficientnetv2-s_1/block5h_se_excite_1/Mul,1 24 24 960,2211840
+667,efficientnetv2-s_1/block5h_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5h_project_conv_1/convolution;efficientnetv2-s_1/block5h_project_bn_1/batchnorm/sub,1 24 24 160,368640
+668,efficientnetv2-s_1/block5h_add_1/Add,1 24 24 160,368640
+669,efficientnetv2-s_1/block5i_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5i_expand_conv_1/convolution;efficientnetv2-s_1/block5i_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+670,efficientnetv2-s_1/block5i_expand_activation_1/Sigmoid,1 24 24 960,2211840
+671,efficientnetv2-s_1/block5i_expand_activation_1/mul_1,1 24 24 960,2211840
+672,efficientnetv2-s_1/block5i_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5i_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block5i_dwconv2_1/depthwise;efficientnetv2-s_1/block5i_bn_1/batchnorm/mul;efficientnetv2-s_1/block5i_bn_1/batchnorm/sub,1 24 24 960,2211840
+673,efficientnetv2-s_1/block5i_activation_1/Sigmoid,1 24 24 960,2211840
+674,efficientnetv2-s_1/block5i_activation_1/mul_1,1 24 24 960,2211840
+675,efficientnetv2-s_1/block5i_se_squeeze_1/Mean,1 960,3840
+676,efficientnetv2-s_1/block5i_se_reshape_1/Shape,2,8
+677,efficientnetv2-s_1/block5i_se_reshape_1/strided_slice,,4
+678,efficientnetv2-s_1/block5i_se_reshape_1/Reshape/shape,4,16
+679,efficientnetv2-s_1/block5i_se_reshape_1/Reshape,1 1 1 960,3840
+680,efficientnetv2-s_1/block5i_se_reduce_1/BiasAdd;efficientnetv2-s_1/block5i_se_reduce_1/convolution;efficientnetv2-s_1/block5i_se_reduce_1/Squeeze,1 1 1 40,160
+681,efficientnetv2-s_1/block5i_se_reduce_1/Sigmoid,1 1 1 40,160
+682,efficientnetv2-s_1/block5i_se_reduce_1/mul_1,1 1 1 40,160
+683,efficientnetv2-s_1/block5i_se_expand_1/BiasAdd;efficientnetv2-s_1/block5i_se_expand_1/convolution;efficientnetv2-s_1/block5i_se_expand_1/Squeeze,1 1 1 960,3840
+684,efficientnetv2-s_1/block5i_se_expand_1/Sigmoid,1 1 1 960,3840
+685,efficientnetv2-s_1/block5i_se_excite_1/Mul,1 24 24 960,2211840
+686,efficientnetv2-s_1/block5i_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block5i_project_conv_1/convolution;efficientnetv2-s_1/block5i_project_bn_1/batchnorm/sub,1 24 24 160,368640
+687,efficientnetv2-s_1/block5i_add_1/Add,1 24 24 160,368640
+688,efficientnetv2-s_1/block6a_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6a_expand_conv_1/convolution;efficientnetv2-s_1/block6a_expand_bn_1/batchnorm/sub,1 24 24 960,2211840
+689,efficientnetv2-s_1/block6a_expand_activation_1/Sigmoid,1 24 24 960,2211840
+690,efficientnetv2-s_1/block6a_expand_activation_1/mul_1,1 24 24 960,2211840
+691,efficientnetv2-s_1/block6a_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6a_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6a_dwconv2_1/depthwise;efficientnetv2-s_1/block6a_bn_1/batchnorm/mul;efficientnetv2-s_1/block6a_bn_1/batchnorm/sub,1 12 12 960,552960
+692,efficientnetv2-s_1/block6a_activation_1/Sigmoid,1 12 12 960,552960
+693,efficientnetv2-s_1/block6a_activation_1/mul_1,1 12 12 960,552960
+694,efficientnetv2-s_1/block6a_se_squeeze_1/Mean,1 960,3840
+695,efficientnetv2-s_1/block6a_se_reshape_1/Shape,2,8
+696,efficientnetv2-s_1/block6a_se_reshape_1/strided_slice,,4
+697,efficientnetv2-s_1/block6a_se_reshape_1/Reshape/shape,4,16
+698,efficientnetv2-s_1/block6a_se_reshape_1/Reshape,1 1 1 960,3840
+699,efficientnetv2-s_1/block6a_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6a_se_reduce_1/convolution;efficientnetv2-s_1/block6a_se_reduce_1/Squeeze,1 1 1 40,160
+700,efficientnetv2-s_1/block6a_se_reduce_1/Sigmoid,1 1 1 40,160
+701,efficientnetv2-s_1/block6a_se_reduce_1/mul_1,1 1 1 40,160
+702,efficientnetv2-s_1/block6a_se_expand_1/BiasAdd;efficientnetv2-s_1/block6a_se_expand_1/convolution;efficientnetv2-s_1/block6a_se_expand_1/Squeeze,1 1 1 960,3840
+703,efficientnetv2-s_1/block6a_se_expand_1/Sigmoid,1 1 1 960,3840
+704,efficientnetv2-s_1/block6a_se_excite_1/Mul,1 12 12 960,552960
+705,efficientnetv2-s_1/block6a_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6a_project_conv_1/convolution;efficientnetv2-s_1/block6a_project_bn_1/batchnorm/sub,1 12 12 256,147456
+706,efficientnetv2-s_1/block6b_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6b_expand_conv_1/convolution;efficientnetv2-s_1/block6b_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+707,efficientnetv2-s_1/block6b_expand_activation_1/Sigmoid,1 12 12 1536,884736
+708,efficientnetv2-s_1/block6b_expand_activation_1/mul_1,1 12 12 1536,884736
+709,efficientnetv2-s_1/block6b_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6b_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6b_dwconv2_1/depthwise;efficientnetv2-s_1/block6b_bn_1/batchnorm/mul;efficientnetv2-s_1/block6b_bn_1/batchnorm/sub,1 12 12 1536,884736
+710,efficientnetv2-s_1/block6b_activation_1/Sigmoid,1 12 12 1536,884736
+711,efficientnetv2-s_1/block6b_activation_1/mul_1,1 12 12 1536,884736
+712,efficientnetv2-s_1/block6b_se_squeeze_1/Mean,1 1536,6144
+713,efficientnetv2-s_1/block6b_se_reshape_1/Shape,2,8
+714,efficientnetv2-s_1/block6b_se_reshape_1/strided_slice,,4
+715,efficientnetv2-s_1/block6b_se_reshape_1/Reshape/shape,4,16
+716,efficientnetv2-s_1/block6b_se_reshape_1/Reshape,1 1 1 1536,6144
+717,efficientnetv2-s_1/block6b_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6b_se_reduce_1/convolution;efficientnetv2-s_1/block6b_se_reduce_1/Squeeze,1 1 1 64,256
+718,efficientnetv2-s_1/block6b_se_reduce_1/Sigmoid,1 1 1 64,256
+719,efficientnetv2-s_1/block6b_se_reduce_1/mul_1,1 1 1 64,256
+720,efficientnetv2-s_1/block6b_se_expand_1/BiasAdd;efficientnetv2-s_1/block6b_se_expand_1/convolution;efficientnetv2-s_1/block6b_se_expand_1/Squeeze,1 1 1 1536,6144
+721,efficientnetv2-s_1/block6b_se_expand_1/Sigmoid,1 1 1 1536,6144
+722,efficientnetv2-s_1/block6b_se_excite_1/Mul,1 12 12 1536,884736
+723,efficientnetv2-s_1/block6b_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6b_project_conv_1/convolution;efficientnetv2-s_1/block6b_project_bn_1/batchnorm/sub,1 12 12 256,147456
+724,efficientnetv2-s_1/block6b_add_1/Add,1 12 12 256,147456
+725,efficientnetv2-s_1/block6c_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6c_expand_conv_1/convolution;efficientnetv2-s_1/block6c_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+726,efficientnetv2-s_1/block6c_expand_activation_1/Sigmoid,1 12 12 1536,884736
+727,efficientnetv2-s_1/block6c_expand_activation_1/mul_1,1 12 12 1536,884736
+728,efficientnetv2-s_1/block6c_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6c_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6c_dwconv2_1/depthwise;efficientnetv2-s_1/block6c_bn_1/batchnorm/mul;efficientnetv2-s_1/block6c_bn_1/batchnorm/sub,1 12 12 1536,884736
+729,efficientnetv2-s_1/block6c_activation_1/Sigmoid,1 12 12 1536,884736
+730,efficientnetv2-s_1/block6c_activation_1/mul_1,1 12 12 1536,884736
+731,efficientnetv2-s_1/block6c_se_squeeze_1/Mean,1 1536,6144
+732,efficientnetv2-s_1/block6c_se_reshape_1/Shape,2,8
+733,efficientnetv2-s_1/block6c_se_reshape_1/strided_slice,,4
+734,efficientnetv2-s_1/block6c_se_reshape_1/Reshape/shape,4,16
+735,efficientnetv2-s_1/block6c_se_reshape_1/Reshape,1 1 1 1536,6144
+736,efficientnetv2-s_1/block6c_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6c_se_reduce_1/convolution;efficientnetv2-s_1/block6c_se_reduce_1/Squeeze,1 1 1 64,256
+737,efficientnetv2-s_1/block6c_se_reduce_1/Sigmoid,1 1 1 64,256
+738,efficientnetv2-s_1/block6c_se_reduce_1/mul_1,1 1 1 64,256
+739,efficientnetv2-s_1/block6c_se_expand_1/BiasAdd;efficientnetv2-s_1/block6c_se_expand_1/convolution;efficientnetv2-s_1/block6c_se_expand_1/Squeeze,1 1 1 1536,6144
+740,efficientnetv2-s_1/block6c_se_expand_1/Sigmoid,1 1 1 1536,6144
+741,efficientnetv2-s_1/block6c_se_excite_1/Mul,1 12 12 1536,884736
+742,efficientnetv2-s_1/block6c_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6c_project_conv_1/convolution;efficientnetv2-s_1/block6c_project_bn_1/batchnorm/sub,1 12 12 256,147456
+743,efficientnetv2-s_1/block6c_add_1/Add,1 12 12 256,147456
+744,efficientnetv2-s_1/block6d_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6d_expand_conv_1/convolution;efficientnetv2-s_1/block6d_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+745,efficientnetv2-s_1/block6d_expand_activation_1/Sigmoid,1 12 12 1536,884736
+746,efficientnetv2-s_1/block6d_expand_activation_1/mul_1,1 12 12 1536,884736
+747,efficientnetv2-s_1/block6d_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6d_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6d_dwconv2_1/depthwise;efficientnetv2-s_1/block6d_bn_1/batchnorm/mul;efficientnetv2-s_1/block6d_bn_1/batchnorm/sub,1 12 12 1536,884736
+748,efficientnetv2-s_1/block6d_activation_1/Sigmoid,1 12 12 1536,884736
+749,efficientnetv2-s_1/block6d_activation_1/mul_1,1 12 12 1536,884736
+750,efficientnetv2-s_1/block6d_se_squeeze_1/Mean,1 1536,6144
+751,efficientnetv2-s_1/block6d_se_reshape_1/Shape,2,8
+752,efficientnetv2-s_1/block6d_se_reshape_1/strided_slice,,4
+753,efficientnetv2-s_1/block6d_se_reshape_1/Reshape/shape,4,16
+754,efficientnetv2-s_1/block6d_se_reshape_1/Reshape,1 1 1 1536,6144
+755,efficientnetv2-s_1/block6d_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6d_se_reduce_1/convolution;efficientnetv2-s_1/block6d_se_reduce_1/Squeeze,1 1 1 64,256
+756,efficientnetv2-s_1/block6d_se_reduce_1/Sigmoid,1 1 1 64,256
+757,efficientnetv2-s_1/block6d_se_reduce_1/mul_1,1 1 1 64,256
+758,efficientnetv2-s_1/block6d_se_expand_1/BiasAdd;efficientnetv2-s_1/block6d_se_expand_1/convolution;efficientnetv2-s_1/block6d_se_expand_1/Squeeze,1 1 1 1536,6144
+759,efficientnetv2-s_1/block6d_se_expand_1/Sigmoid,1 1 1 1536,6144
+760,efficientnetv2-s_1/block6d_se_excite_1/Mul,1 12 12 1536,884736
+761,efficientnetv2-s_1/block6d_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6d_project_conv_1/convolution;efficientnetv2-s_1/block6d_project_bn_1/batchnorm/sub,1 12 12 256,147456
+762,efficientnetv2-s_1/block6d_add_1/Add,1 12 12 256,147456
+763,efficientnetv2-s_1/block6e_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6e_expand_conv_1/convolution;efficientnetv2-s_1/block6e_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+764,efficientnetv2-s_1/block6e_expand_activation_1/Sigmoid,1 12 12 1536,884736
+765,efficientnetv2-s_1/block6e_expand_activation_1/mul_1,1 12 12 1536,884736
+766,efficientnetv2-s_1/block6e_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6e_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6e_dwconv2_1/depthwise;efficientnetv2-s_1/block6e_bn_1/batchnorm/mul;efficientnetv2-s_1/block6e_bn_1/batchnorm/sub,1 12 12 1536,884736
+767,efficientnetv2-s_1/block6e_activation_1/Sigmoid,1 12 12 1536,884736
+768,efficientnetv2-s_1/block6e_activation_1/mul_1,1 12 12 1536,884736
+769,efficientnetv2-s_1/block6e_se_squeeze_1/Mean,1 1536,6144
+770,efficientnetv2-s_1/block6e_se_reshape_1/Shape,2,8
+771,efficientnetv2-s_1/block6e_se_reshape_1/strided_slice,,4
+772,efficientnetv2-s_1/block6e_se_reshape_1/Reshape/shape,4,16
+773,efficientnetv2-s_1/block6e_se_reshape_1/Reshape,1 1 1 1536,6144
+774,efficientnetv2-s_1/block6e_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6e_se_reduce_1/convolution;efficientnetv2-s_1/block6e_se_reduce_1/Squeeze,1 1 1 64,256
+775,efficientnetv2-s_1/block6e_se_reduce_1/Sigmoid,1 1 1 64,256
+776,efficientnetv2-s_1/block6e_se_reduce_1/mul_1,1 1 1 64,256
+777,efficientnetv2-s_1/block6e_se_expand_1/BiasAdd;efficientnetv2-s_1/block6e_se_expand_1/convolution;efficientnetv2-s_1/block6e_se_expand_1/Squeeze,1 1 1 1536,6144
+778,efficientnetv2-s_1/block6e_se_expand_1/Sigmoid,1 1 1 1536,6144
+779,efficientnetv2-s_1/block6e_se_excite_1/Mul,1 12 12 1536,884736
+780,efficientnetv2-s_1/block6e_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6e_project_conv_1/convolution;efficientnetv2-s_1/block6e_project_bn_1/batchnorm/sub,1 12 12 256,147456
+781,efficientnetv2-s_1/block6e_add_1/Add,1 12 12 256,147456
+782,efficientnetv2-s_1/block6f_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6f_expand_conv_1/convolution;efficientnetv2-s_1/block6f_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+783,efficientnetv2-s_1/block6f_expand_activation_1/Sigmoid,1 12 12 1536,884736
+784,efficientnetv2-s_1/block6f_expand_activation_1/mul_1,1 12 12 1536,884736
+785,efficientnetv2-s_1/block6f_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6f_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6f_dwconv2_1/depthwise;efficientnetv2-s_1/block6f_bn_1/batchnorm/mul;efficientnetv2-s_1/block6f_bn_1/batchnorm/sub,1 12 12 1536,884736
+786,efficientnetv2-s_1/block6f_activation_1/Sigmoid,1 12 12 1536,884736
+787,efficientnetv2-s_1/block6f_activation_1/mul_1,1 12 12 1536,884736
+788,efficientnetv2-s_1/block6f_se_squeeze_1/Mean,1 1536,6144
+789,efficientnetv2-s_1/block6f_se_reshape_1/Shape,2,8
+790,efficientnetv2-s_1/block6f_se_reshape_1/strided_slice,,4
+791,efficientnetv2-s_1/block6f_se_reshape_1/Reshape/shape,4,16
+792,efficientnetv2-s_1/block6f_se_reshape_1/Reshape,1 1 1 1536,6144
+793,efficientnetv2-s_1/block6f_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6f_se_reduce_1/convolution;efficientnetv2-s_1/block6f_se_reduce_1/Squeeze,1 1 1 64,256
+794,efficientnetv2-s_1/block6f_se_reduce_1/Sigmoid,1 1 1 64,256
+795,efficientnetv2-s_1/block6f_se_reduce_1/mul_1,1 1 1 64,256
+796,efficientnetv2-s_1/block6f_se_expand_1/BiasAdd;efficientnetv2-s_1/block6f_se_expand_1/convolution;efficientnetv2-s_1/block6f_se_expand_1/Squeeze,1 1 1 1536,6144
+797,efficientnetv2-s_1/block6f_se_expand_1/Sigmoid,1 1 1 1536,6144
+798,efficientnetv2-s_1/block6f_se_excite_1/Mul,1 12 12 1536,884736
+799,efficientnetv2-s_1/block6f_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6f_project_conv_1/convolution;efficientnetv2-s_1/block6f_project_bn_1/batchnorm/sub,1 12 12 256,147456
+800,efficientnetv2-s_1/block6f_add_1/Add,1 12 12 256,147456
+801,efficientnetv2-s_1/block6g_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6g_expand_conv_1/convolution;efficientnetv2-s_1/block6g_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+802,efficientnetv2-s_1/block6g_expand_activation_1/Sigmoid,1 12 12 1536,884736
+803,efficientnetv2-s_1/block6g_expand_activation_1/mul_1,1 12 12 1536,884736
+804,efficientnetv2-s_1/block6g_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6g_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6g_dwconv2_1/depthwise;efficientnetv2-s_1/block6g_bn_1/batchnorm/mul;efficientnetv2-s_1/block6g_bn_1/batchnorm/sub,1 12 12 1536,884736
+805,efficientnetv2-s_1/block6g_activation_1/Sigmoid,1 12 12 1536,884736
+806,efficientnetv2-s_1/block6g_activation_1/mul_1,1 12 12 1536,884736
+807,efficientnetv2-s_1/block6g_se_squeeze_1/Mean,1 1536,6144
+808,efficientnetv2-s_1/block6g_se_reshape_1/Shape,2,8
+809,efficientnetv2-s_1/block6g_se_reshape_1/strided_slice,,4
+810,efficientnetv2-s_1/block6g_se_reshape_1/Reshape/shape,4,16
+811,efficientnetv2-s_1/block6g_se_reshape_1/Reshape,1 1 1 1536,6144
+812,efficientnetv2-s_1/block6g_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6g_se_reduce_1/convolution;efficientnetv2-s_1/block6g_se_reduce_1/Squeeze,1 1 1 64,256
+813,efficientnetv2-s_1/block6g_se_reduce_1/Sigmoid,1 1 1 64,256
+814,efficientnetv2-s_1/block6g_se_reduce_1/mul_1,1 1 1 64,256
+815,efficientnetv2-s_1/block6g_se_expand_1/BiasAdd;efficientnetv2-s_1/block6g_se_expand_1/convolution;efficientnetv2-s_1/block6g_se_expand_1/Squeeze,1 1 1 1536,6144
+816,efficientnetv2-s_1/block6g_se_expand_1/Sigmoid,1 1 1 1536,6144
+817,efficientnetv2-s_1/block6g_se_excite_1/Mul,1 12 12 1536,884736
+818,efficientnetv2-s_1/block6g_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6g_project_conv_1/convolution;efficientnetv2-s_1/block6g_project_bn_1/batchnorm/sub,1 12 12 256,147456
+819,efficientnetv2-s_1/block6g_add_1/Add,1 12 12 256,147456
+820,efficientnetv2-s_1/block6h_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6h_expand_conv_1/convolution;efficientnetv2-s_1/block6h_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+821,efficientnetv2-s_1/block6h_expand_activation_1/Sigmoid,1 12 12 1536,884736
+822,efficientnetv2-s_1/block6h_expand_activation_1/mul_1,1 12 12 1536,884736
+823,efficientnetv2-s_1/block6h_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6h_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6h_dwconv2_1/depthwise;efficientnetv2-s_1/block6h_bn_1/batchnorm/mul;efficientnetv2-s_1/block6h_bn_1/batchnorm/sub,1 12 12 1536,884736
+824,efficientnetv2-s_1/block6h_activation_1/Sigmoid,1 12 12 1536,884736
+825,efficientnetv2-s_1/block6h_activation_1/mul_1,1 12 12 1536,884736
+826,efficientnetv2-s_1/block6h_se_squeeze_1/Mean,1 1536,6144
+827,efficientnetv2-s_1/block6h_se_reshape_1/Shape,2,8
+828,efficientnetv2-s_1/block6h_se_reshape_1/strided_slice,,4
+829,efficientnetv2-s_1/block6h_se_reshape_1/Reshape/shape,4,16
+830,efficientnetv2-s_1/block6h_se_reshape_1/Reshape,1 1 1 1536,6144
+831,efficientnetv2-s_1/block6h_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6h_se_reduce_1/convolution;efficientnetv2-s_1/block6h_se_reduce_1/Squeeze,1 1 1 64,256
+832,efficientnetv2-s_1/block6h_se_reduce_1/Sigmoid,1 1 1 64,256
+833,efficientnetv2-s_1/block6h_se_reduce_1/mul_1,1 1 1 64,256
+834,efficientnetv2-s_1/block6h_se_expand_1/BiasAdd;efficientnetv2-s_1/block6h_se_expand_1/convolution;efficientnetv2-s_1/block6h_se_expand_1/Squeeze,1 1 1 1536,6144
+835,efficientnetv2-s_1/block6h_se_expand_1/Sigmoid,1 1 1 1536,6144
+836,efficientnetv2-s_1/block6h_se_excite_1/Mul,1 12 12 1536,884736
+837,efficientnetv2-s_1/block6h_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6h_project_conv_1/convolution;efficientnetv2-s_1/block6h_project_bn_1/batchnorm/sub,1 12 12 256,147456
+838,efficientnetv2-s_1/block6h_add_1/Add,1 12 12 256,147456
+839,efficientnetv2-s_1/block6i_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6i_expand_conv_1/convolution;efficientnetv2-s_1/block6i_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+840,efficientnetv2-s_1/block6i_expand_activation_1/Sigmoid,1 12 12 1536,884736
+841,efficientnetv2-s_1/block6i_expand_activation_1/mul_1,1 12 12 1536,884736
+842,efficientnetv2-s_1/block6i_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6i_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6i_dwconv2_1/depthwise;efficientnetv2-s_1/block6i_bn_1/batchnorm/mul;efficientnetv2-s_1/block6i_bn_1/batchnorm/sub,1 12 12 1536,884736
+843,efficientnetv2-s_1/block6i_activation_1/Sigmoid,1 12 12 1536,884736
+844,efficientnetv2-s_1/block6i_activation_1/mul_1,1 12 12 1536,884736
+845,efficientnetv2-s_1/block6i_se_squeeze_1/Mean,1 1536,6144
+846,efficientnetv2-s_1/block6i_se_reshape_1/Shape,2,8
+847,efficientnetv2-s_1/block6i_se_reshape_1/strided_slice,,4
+848,efficientnetv2-s_1/block6i_se_reshape_1/Reshape/shape,4,16
+849,efficientnetv2-s_1/block6i_se_reshape_1/Reshape,1 1 1 1536,6144
+850,efficientnetv2-s_1/block6i_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6i_se_reduce_1/convolution;efficientnetv2-s_1/block6i_se_reduce_1/Squeeze,1 1 1 64,256
+851,efficientnetv2-s_1/block6i_se_reduce_1/Sigmoid,1 1 1 64,256
+852,efficientnetv2-s_1/block6i_se_reduce_1/mul_1,1 1 1 64,256
+853,efficientnetv2-s_1/block6i_se_expand_1/BiasAdd;efficientnetv2-s_1/block6i_se_expand_1/convolution;efficientnetv2-s_1/block6i_se_expand_1/Squeeze,1 1 1 1536,6144
+854,efficientnetv2-s_1/block6i_se_expand_1/Sigmoid,1 1 1 1536,6144
+855,efficientnetv2-s_1/block6i_se_excite_1/Mul,1 12 12 1536,884736
+856,efficientnetv2-s_1/block6i_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6i_project_conv_1/convolution;efficientnetv2-s_1/block6i_project_bn_1/batchnorm/sub,1 12 12 256,147456
+857,efficientnetv2-s_1/block6i_add_1/Add,1 12 12 256,147456
+858,efficientnetv2-s_1/block6j_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6j_expand_conv_1/convolution;efficientnetv2-s_1/block6j_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+859,efficientnetv2-s_1/block6j_expand_activation_1/Sigmoid,1 12 12 1536,884736
+860,efficientnetv2-s_1/block6j_expand_activation_1/mul_1,1 12 12 1536,884736
+861,efficientnetv2-s_1/block6j_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6j_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6j_dwconv2_1/depthwise;efficientnetv2-s_1/block6j_bn_1/batchnorm/mul;efficientnetv2-s_1/block6j_bn_1/batchnorm/sub,1 12 12 1536,884736
+862,efficientnetv2-s_1/block6j_activation_1/Sigmoid,1 12 12 1536,884736
+863,efficientnetv2-s_1/block6j_activation_1/mul_1,1 12 12 1536,884736
+864,efficientnetv2-s_1/block6j_se_squeeze_1/Mean,1 1536,6144
+865,efficientnetv2-s_1/block6j_se_reshape_1/Shape,2,8
+866,efficientnetv2-s_1/block6j_se_reshape_1/strided_slice,,4
+867,efficientnetv2-s_1/block6j_se_reshape_1/Reshape/shape,4,16
+868,efficientnetv2-s_1/block6j_se_reshape_1/Reshape,1 1 1 1536,6144
+869,efficientnetv2-s_1/block6j_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6j_se_reduce_1/convolution;efficientnetv2-s_1/block6j_se_reduce_1/Squeeze,1 1 1 64,256
+870,efficientnetv2-s_1/block6j_se_reduce_1/Sigmoid,1 1 1 64,256
+871,efficientnetv2-s_1/block6j_se_reduce_1/mul_1,1 1 1 64,256
+872,efficientnetv2-s_1/block6j_se_expand_1/BiasAdd;efficientnetv2-s_1/block6j_se_expand_1/convolution;efficientnetv2-s_1/block6j_se_expand_1/Squeeze,1 1 1 1536,6144
+873,efficientnetv2-s_1/block6j_se_expand_1/Sigmoid,1 1 1 1536,6144
+874,efficientnetv2-s_1/block6j_se_excite_1/Mul,1 12 12 1536,884736
+875,efficientnetv2-s_1/block6j_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6j_project_conv_1/convolution;efficientnetv2-s_1/block6j_project_bn_1/batchnorm/sub,1 12 12 256,147456
+876,efficientnetv2-s_1/block6j_add_1/Add,1 12 12 256,147456
+877,efficientnetv2-s_1/block6k_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6k_expand_conv_1/convolution;efficientnetv2-s_1/block6k_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+878,efficientnetv2-s_1/block6k_expand_activation_1/Sigmoid,1 12 12 1536,884736
+879,efficientnetv2-s_1/block6k_expand_activation_1/mul_1,1 12 12 1536,884736
+880,efficientnetv2-s_1/block6k_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6k_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6k_dwconv2_1/depthwise;efficientnetv2-s_1/block6k_bn_1/batchnorm/mul;efficientnetv2-s_1/block6k_bn_1/batchnorm/sub,1 12 12 1536,884736
+881,efficientnetv2-s_1/block6k_activation_1/Sigmoid,1 12 12 1536,884736
+882,efficientnetv2-s_1/block6k_activation_1/mul_1,1 12 12 1536,884736
+883,efficientnetv2-s_1/block6k_se_squeeze_1/Mean,1 1536,6144
+884,efficientnetv2-s_1/block6k_se_reshape_1/Shape,2,8
+885,efficientnetv2-s_1/block6k_se_reshape_1/strided_slice,,4
+886,efficientnetv2-s_1/block6k_se_reshape_1/Reshape/shape,4,16
+887,efficientnetv2-s_1/block6k_se_reshape_1/Reshape,1 1 1 1536,6144
+888,efficientnetv2-s_1/block6k_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6k_se_reduce_1/convolution;efficientnetv2-s_1/block6k_se_reduce_1/Squeeze,1 1 1 64,256
+889,efficientnetv2-s_1/block6k_se_reduce_1/Sigmoid,1 1 1 64,256
+890,efficientnetv2-s_1/block6k_se_reduce_1/mul_1,1 1 1 64,256
+891,efficientnetv2-s_1/block6k_se_expand_1/BiasAdd;efficientnetv2-s_1/block6k_se_expand_1/convolution;efficientnetv2-s_1/block6k_se_expand_1/Squeeze,1 1 1 1536,6144
+892,efficientnetv2-s_1/block6k_se_expand_1/Sigmoid,1 1 1 1536,6144
+893,efficientnetv2-s_1/block6k_se_excite_1/Mul,1 12 12 1536,884736
+894,efficientnetv2-s_1/block6k_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6k_project_conv_1/convolution;efficientnetv2-s_1/block6k_project_bn_1/batchnorm/sub,1 12 12 256,147456
+895,efficientnetv2-s_1/block6k_add_1/Add,1 12 12 256,147456
+896,efficientnetv2-s_1/block6l_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6l_expand_conv_1/convolution;efficientnetv2-s_1/block6l_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+897,efficientnetv2-s_1/block6l_expand_activation_1/Sigmoid,1 12 12 1536,884736
+898,efficientnetv2-s_1/block6l_expand_activation_1/mul_1,1 12 12 1536,884736
+899,efficientnetv2-s_1/block6l_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6l_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6l_dwconv2_1/depthwise;efficientnetv2-s_1/block6l_bn_1/batchnorm/mul;efficientnetv2-s_1/block6l_bn_1/batchnorm/sub,1 12 12 1536,884736
+900,efficientnetv2-s_1/block6l_activation_1/Sigmoid,1 12 12 1536,884736
+901,efficientnetv2-s_1/block6l_activation_1/mul_1,1 12 12 1536,884736
+902,efficientnetv2-s_1/block6l_se_squeeze_1/Mean,1 1536,6144
+903,efficientnetv2-s_1/block6l_se_reshape_1/Shape,2,8
+904,efficientnetv2-s_1/block6l_se_reshape_1/strided_slice,,4
+905,efficientnetv2-s_1/block6l_se_reshape_1/Reshape/shape,4,16
+906,efficientnetv2-s_1/block6l_se_reshape_1/Reshape,1 1 1 1536,6144
+907,efficientnetv2-s_1/block6l_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6l_se_reduce_1/convolution;efficientnetv2-s_1/block6l_se_reduce_1/Squeeze,1 1 1 64,256
+908,efficientnetv2-s_1/block6l_se_reduce_1/Sigmoid,1 1 1 64,256
+909,efficientnetv2-s_1/block6l_se_reduce_1/mul_1,1 1 1 64,256
+910,efficientnetv2-s_1/block6l_se_expand_1/BiasAdd;efficientnetv2-s_1/block6l_se_expand_1/convolution;efficientnetv2-s_1/block6l_se_expand_1/Squeeze,1 1 1 1536,6144
+911,efficientnetv2-s_1/block6l_se_expand_1/Sigmoid,1 1 1 1536,6144
+912,efficientnetv2-s_1/block6l_se_excite_1/Mul,1 12 12 1536,884736
+913,efficientnetv2-s_1/block6l_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6l_project_conv_1/convolution;efficientnetv2-s_1/block6l_project_bn_1/batchnorm/sub,1 12 12 256,147456
+914,efficientnetv2-s_1/block6l_add_1/Add,1 12 12 256,147456
+915,efficientnetv2-s_1/block6m_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6m_expand_conv_1/convolution;efficientnetv2-s_1/block6m_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+916,efficientnetv2-s_1/block6m_expand_activation_1/Sigmoid,1 12 12 1536,884736
+917,efficientnetv2-s_1/block6m_expand_activation_1/mul_1,1 12 12 1536,884736
+918,efficientnetv2-s_1/block6m_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6m_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6m_dwconv2_1/depthwise;efficientnetv2-s_1/block6m_bn_1/batchnorm/mul;efficientnetv2-s_1/block6m_bn_1/batchnorm/sub,1 12 12 1536,884736
+919,efficientnetv2-s_1/block6m_activation_1/Sigmoid,1 12 12 1536,884736
+920,efficientnetv2-s_1/block6m_activation_1/mul_1,1 12 12 1536,884736
+921,efficientnetv2-s_1/block6m_se_squeeze_1/Mean,1 1536,6144
+922,efficientnetv2-s_1/block6m_se_reshape_1/Shape,2,8
+923,efficientnetv2-s_1/block6m_se_reshape_1/strided_slice,,4
+924,efficientnetv2-s_1/block6m_se_reshape_1/Reshape/shape,4,16
+925,efficientnetv2-s_1/block6m_se_reshape_1/Reshape,1 1 1 1536,6144
+926,efficientnetv2-s_1/block6m_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6m_se_reduce_1/convolution;efficientnetv2-s_1/block6m_se_reduce_1/Squeeze,1 1 1 64,256
+927,efficientnetv2-s_1/block6m_se_reduce_1/Sigmoid,1 1 1 64,256
+928,efficientnetv2-s_1/block6m_se_reduce_1/mul_1,1 1 1 64,256
+929,efficientnetv2-s_1/block6m_se_expand_1/BiasAdd;efficientnetv2-s_1/block6m_se_expand_1/convolution;efficientnetv2-s_1/block6m_se_expand_1/Squeeze,1 1 1 1536,6144
+930,efficientnetv2-s_1/block6m_se_expand_1/Sigmoid,1 1 1 1536,6144
+931,efficientnetv2-s_1/block6m_se_excite_1/Mul,1 12 12 1536,884736
+932,efficientnetv2-s_1/block6m_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6m_project_conv_1/convolution;efficientnetv2-s_1/block6m_project_bn_1/batchnorm/sub,1 12 12 256,147456
+933,efficientnetv2-s_1/block6m_add_1/Add,1 12 12 256,147456
+934,efficientnetv2-s_1/block6n_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6n_expand_conv_1/convolution;efficientnetv2-s_1/block6n_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+935,efficientnetv2-s_1/block6n_expand_activation_1/Sigmoid,1 12 12 1536,884736
+936,efficientnetv2-s_1/block6n_expand_activation_1/mul_1,1 12 12 1536,884736
+937,efficientnetv2-s_1/block6n_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6n_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6n_dwconv2_1/depthwise;efficientnetv2-s_1/block6n_bn_1/batchnorm/mul;efficientnetv2-s_1/block6n_bn_1/batchnorm/sub,1 12 12 1536,884736
+938,efficientnetv2-s_1/block6n_activation_1/Sigmoid,1 12 12 1536,884736
+939,efficientnetv2-s_1/block6n_activation_1/mul_1,1 12 12 1536,884736
+940,efficientnetv2-s_1/block6n_se_squeeze_1/Mean,1 1536,6144
+941,efficientnetv2-s_1/block6n_se_reshape_1/Shape,2,8
+942,efficientnetv2-s_1/block6n_se_reshape_1/strided_slice,,4
+943,efficientnetv2-s_1/block6n_se_reshape_1/Reshape/shape,4,16
+944,efficientnetv2-s_1/block6n_se_reshape_1/Reshape,1 1 1 1536,6144
+945,efficientnetv2-s_1/block6n_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6n_se_reduce_1/convolution;efficientnetv2-s_1/block6n_se_reduce_1/Squeeze,1 1 1 64,256
+946,efficientnetv2-s_1/block6n_se_reduce_1/Sigmoid,1 1 1 64,256
+947,efficientnetv2-s_1/block6n_se_reduce_1/mul_1,1 1 1 64,256
+948,efficientnetv2-s_1/block6n_se_expand_1/BiasAdd;efficientnetv2-s_1/block6n_se_expand_1/convolution;efficientnetv2-s_1/block6n_se_expand_1/Squeeze,1 1 1 1536,6144
+949,efficientnetv2-s_1/block6n_se_expand_1/Sigmoid,1 1 1 1536,6144
+950,efficientnetv2-s_1/block6n_se_excite_1/Mul,1 12 12 1536,884736
+951,efficientnetv2-s_1/block6n_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6n_project_conv_1/convolution;efficientnetv2-s_1/block6n_project_bn_1/batchnorm/sub,1 12 12 256,147456
+952,efficientnetv2-s_1/block6n_add_1/Add,1 12 12 256,147456
+953,efficientnetv2-s_1/block6o_expand_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6o_expand_conv_1/convolution;efficientnetv2-s_1/block6o_expand_bn_1/batchnorm/sub,1 12 12 1536,884736
+954,efficientnetv2-s_1/block6o_expand_activation_1/Sigmoid,1 12 12 1536,884736
+955,efficientnetv2-s_1/block6o_expand_activation_1/mul_1,1 12 12 1536,884736
+956,efficientnetv2-s_1/block6o_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6o_bn_1/batchnorm/mul_1;efficientnetv2-s_1/block6o_dwconv2_1/depthwise;efficientnetv2-s_1/block6o_bn_1/batchnorm/mul;efficientnetv2-s_1/block6o_bn_1/batchnorm/sub,1 12 12 1536,884736
+957,efficientnetv2-s_1/block6o_activation_1/Sigmoid,1 12 12 1536,884736
+958,efficientnetv2-s_1/block6o_activation_1/mul_1,1 12 12 1536,884736
+959,efficientnetv2-s_1/block6o_se_squeeze_1/Mean,1 1536,6144
+960,efficientnetv2-s_1/block6o_se_reshape_1/Shape,2,8
+961,efficientnetv2-s_1/block6o_se_reshape_1/strided_slice,,4
+962,efficientnetv2-s_1/block6o_se_reshape_1/Reshape/shape,4,16
+963,efficientnetv2-s_1/block6o_se_reshape_1/Reshape,1 1 1 1536,6144
+964,efficientnetv2-s_1/block6o_se_reduce_1/BiasAdd;efficientnetv2-s_1/block6o_se_reduce_1/convolution;efficientnetv2-s_1/block6o_se_reduce_1/Squeeze,1 1 1 64,256
+965,efficientnetv2-s_1/block6o_se_reduce_1/Sigmoid,1 1 1 64,256
+966,efficientnetv2-s_1/block6o_se_reduce_1/mul_1,1 1 1 64,256
+967,efficientnetv2-s_1/block6o_se_expand_1/BiasAdd;efficientnetv2-s_1/block6o_se_expand_1/convolution;efficientnetv2-s_1/block6o_se_expand_1/Squeeze,1 1 1 1536,6144
+968,efficientnetv2-s_1/block6o_se_expand_1/Sigmoid,1 1 1 1536,6144
+969,efficientnetv2-s_1/block6o_se_excite_1/Mul,1 12 12 1536,884736
+970,efficientnetv2-s_1/block6o_project_bn_1/batchnorm/add_1;efficientnetv2-s_1/block6o_project_conv_1/convolution;efficientnetv2-s_1/block6o_project_bn_1/batchnorm/sub,1 12 12 256,147456
+971,efficientnetv2-s_1/block6o_add_1/Add,1 12 12 256,147456
+972,efficientnetv2-s_1/top_bn_1/batchnorm/add_1;efficientnetv2-s_1/top_conv_1/convolution;efficientnetv2-s_1/top_bn_1/batchnorm/sub,1 12 12 1280,737280
+973,efficientnetv2-s_1/top_activation_1/Sigmoid,1 12 12 1280,737280
+974,efficientnetv2-s_1/top_activation_1/mul_1,1 12 12 1280,737280
+975,efficientnetv2-s_1/avg_pool_1/Mean,1 1280,5120
+976,efficientnetv2-s_1/predictions_1/MatMul;efficientnetv2-s_1/predictions_1/BiasAdd,1 1000,4000
+977,StatefulPartitionedCall_1:0,1 1000,4000

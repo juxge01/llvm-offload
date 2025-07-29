@@ -1,0 +1,105 @@
+Operator,Working set,Memory use,MACs
+xception_1/block1_conv1_act_1/Relu;xception_1/block1_conv1_bn_1/batchnorm/add_1;xception_1/block1_conv1_1/convolution;1,0 124,3914540,19181664
+xception_1/block1_conv2_act_1/Relu;xception_1/block1_conv2_bn_1/batchnorm/add_1;xception_1/block1_conv2_1/convolution;,124 125,8373632,398297088
+xception_1/block2_sepconv1_1/separable_conv2d/depthwise,125 126,11063808,12446784
+xception_1/block2_sepconv2_act_1/Relu;xception_1/block2_sepconv1_bn_1/batchnorm/add_1;xception_1/block2_sepconv1_1/separable_conv2d;,125 126 127,22127616,177020928
+xception_1/block2_sepconv2_1/separable_conv2d/depthwise,125 127 128,27659520,24893568
+xception_1/block2_sepconv2_bn_1/batchnorm/add_1;xception_1/block2_sepconv2_1/separable_conv2d;,125 128 129,27659520,354041856
+xception_1/block2_pool_1/MaxPool2d,125 129 130,19399424,6308352
+xception_1/batch_normalization_1/batchnorm/add_1;xception_1/conv2d_1/convolution;xception_1/batch_normalization_1/batchnorm/sub,125 130 131,11139328,44859392
+xception_1/add_1/Add,130 131 132,8411136,700928
+xception_1/block3_sepconv1_act_1/Relu,132 133,5607424,0
+xception_1/block3_sepconv1_1/separable_conv2d/depthwise,132 133 134,8411136,6308352
+xception_1/block3_sepconv2_act_1/Relu;xception_1/block3_sepconv1_bn_1/batchnorm/add_1;xception_1/block3_sepconv1_1/separable_conv2d;,132 134 135,11214848,179437568
+xception_1/block3_sepconv2_1/separable_conv2d/depthwise,132 135 136,14018560,12616704
+xception_1/block3_sepconv2_bn_1/batchnorm/add_1;xception_1/block3_sepconv2_1/separable_conv2d;,132 136 137,14018560,358875136
+xception_1/block3_pool_1/MaxPool2d,132 137 138,9812992,3154176
+xception_1/batch_normalization_1_2/batchnorm/add_1;xception_1/conv2d_1_2/convolution;xception_1/batch_normalization_1_2/batchnorm/sub,132 138 139,5607424,44859392
+xception_1/add_1_2/Add,138 139 140,4205568,350464
+xception_1/block4_sepconv1_act_1/Relu,140 141,2803712,0
+xception_1/block4_sepconv1_1/separable_conv2d/depthwise,140 141 142,4205568,3154176
+xception_1/block4_sepconv2_act_1/Relu;xception_1/block4_sepconv1_bn_1/batchnorm/add_1;xception_1/block4_sepconv1_1/separable_conv2d;,140 142 143,6790240,255137792
+xception_1/block4_sepconv2_1/separable_conv2d/depthwise,140 143 144,9374912,8969688
+xception_1/block4_sepconv2_bn_1/batchnorm/add_1;xception_1/block4_sepconv2_1/separable_conv2d;,140 144 145,9374912,725548096
+xception_1/block4_pool_1/MaxPool2d,140 145 146,6439616,2365272
+xception_1/batch_normalization_2_1/batchnorm/add_1;xception_1/conv2d_2_1/convolution;xception_1/batch_normalization_2_1/batchnorm/sub,140 146 147,3504320,67278848
+xception_1/add_2_1/Add,146 147 148,3153696,262808
+xception_1/block5_sepconv1_act_1/Relu,148 149,2102464,0
+xception_1/block5_sepconv1_1/separable_conv2d/depthwise,148 149 150,3153696,2365272
+xception_1/block5_sepconv2_act_1/Relu;xception_1/block5_sepconv1_bn_1/batchnorm/add_1;xception_1/block5_sepconv1_1/separable_conv2d;,148 150 151,3153696,191324224
+xception_1/block5_sepconv2_1/separable_conv2d/depthwise,148 151 152,3153696,2365272
+xception_1/block5_sepconv3_act_1/Relu;xception_1/block5_sepconv2_bn_1/batchnorm/add_1;xception_1/block5_sepconv2_1/separable_conv2d;,148 152 153,3153696,191324224
+xception_1/block5_sepconv3_1/separable_conv2d/depthwise,148 153 154,3153696,2365272
+xception_1/block5_sepconv3_bn_1/batchnorm/add_1;xception_1/block5_sepconv3_1/separable_conv2d;,148 154 155,3153696,191324224
+xception_1/add_3_1/Add,148 155 156,3153696,262808
+xception_1/block6_sepconv1_act_1/Relu,156 157,2102464,0
+xception_1/block6_sepconv1_1/separable_conv2d/depthwise,156 157 158,3153696,2365272
+xception_1/block6_sepconv2_act_1/Relu;xception_1/block6_sepconv1_bn_1/batchnorm/add_1;xception_1/block6_sepconv1_1/separable_conv2d;,156 158 159,3153696,191324224
+xception_1/block6_sepconv2_1/separable_conv2d/depthwise,156 159 160,3153696,2365272
+xception_1/block6_sepconv3_act_1/Relu;xception_1/block6_sepconv2_bn_1/batchnorm/add_1;xception_1/block6_sepconv2_1/separable_conv2d;,156 160 161,3153696,191324224
+xception_1/block6_sepconv3_1/separable_conv2d/depthwise,156 161 162,3153696,2365272
+xception_1/block6_sepconv3_bn_1/batchnorm/add_1;xception_1/block6_sepconv3_1/separable_conv2d;,156 162 163,3153696,191324224
+xception_1/add_4_1/Add,156 163 164,3153696,262808
+xception_1/block7_sepconv1_act_1/Relu,164 165,2102464,0
+xception_1/block7_sepconv1_1/separable_conv2d/depthwise,164 165 166,3153696,2365272
+xception_1/block7_sepconv2_act_1/Relu;xception_1/block7_sepconv1_bn_1/batchnorm/add_1;xception_1/block7_sepconv1_1/separable_conv2d;,164 166 167,3153696,191324224
+xception_1/block7_sepconv2_1/separable_conv2d/depthwise,164 167 168,3153696,2365272
+xception_1/block7_sepconv3_act_1/Relu;xception_1/block7_sepconv2_bn_1/batchnorm/add_1;xception_1/block7_sepconv2_1/separable_conv2d;,164 168 169,3153696,191324224
+xception_1/block7_sepconv3_1/separable_conv2d/depthwise,164 169 170,3153696,2365272
+xception_1/block7_sepconv3_bn_1/batchnorm/add_1;xception_1/block7_sepconv3_1/separable_conv2d;,164 170 171,3153696,191324224
+xception_1/add_5_1/Add,164 171 172,3153696,262808
+xception_1/block8_sepconv1_act_1/Relu,172 173,2102464,0
+xception_1/block8_sepconv1_1/separable_conv2d/depthwise,172 173 174,3153696,2365272
+xception_1/block8_sepconv2_act_1/Relu;xception_1/block8_sepconv1_bn_1/batchnorm/add_1;xception_1/block8_sepconv1_1/separable_conv2d;,172 174 175,3153696,191324224
+xception_1/block8_sepconv2_1/separable_conv2d/depthwise,172 175 176,3153696,2365272
+xception_1/block8_sepconv3_act_1/Relu;xception_1/block8_sepconv2_bn_1/batchnorm/add_1;xception_1/block8_sepconv2_1/separable_conv2d;,172 176 177,3153696,191324224
+xception_1/block8_sepconv3_1/separable_conv2d/depthwise,178 172 177,3153696,2365272
+xception_1/block8_sepconv3_bn_1/batchnorm/add_1;xception_1/block8_sepconv3_1/separable_conv2d;,178 179 172,3153696,191324224
+xception_1/add_6_1/Add,179 180 172,3153696,262808
+xception_1/block9_sepconv1_act_1/Relu,180 181,2102464,0
+xception_1/block9_sepconv1_1/separable_conv2d/depthwise,180 181 182,3153696,2365272
+xception_1/block9_sepconv2_act_1/Relu;xception_1/block9_sepconv1_bn_1/batchnorm/add_1;xception_1/block9_sepconv1_1/separable_conv2d;,180 182 183,3153696,191324224
+xception_1/block9_sepconv2_1/separable_conv2d/depthwise,180 183 184,3153696,2365272
+xception_1/block9_sepconv3_act_1/Relu;xception_1/block9_sepconv2_bn_1/batchnorm/add_1;xception_1/block9_sepconv2_1/separable_conv2d;,180 184 185,3153696,191324224
+xception_1/block9_sepconv3_1/separable_conv2d/depthwise,180 185 186,3153696,2365272
+xception_1/block9_sepconv3_bn_1/batchnorm/add_1;xception_1/block9_sepconv3_1/separable_conv2d;,180 186 187,3153696,191324224
+xception_1/add_7_1/Add,180 188 187,3153696,262808
+xception_1/block10_sepconv1_act_1/Relu,188 189,2102464,0
+xception_1/block10_sepconv1_1/separable_conv2d/depthwise,188 189 190,3153696,2365272
+xception_1/block10_sepconv2_act_1/Relu;xception_1/block10_sepconv1_bn_1/batchnorm/add_1;xception_1/block10_sepconv1_1/separable_conv2d;xception_1/block10_sepconv1_bn_1/batchnorm/sub,188 190 191,3153696,191324224
+xception_1/block10_sepconv2_1/separable_conv2d/depthwise,188 191 192,3153696,2365272
+xception_1/block10_sepconv3_act_1/Relu;xception_1/block10_sepconv2_bn_1/batchnorm/add_1;xception_1/block10_sepconv2_1/separable_conv2d;xception_1/block10_sepconv2_bn_1/batchnorm/sub,188 192 193,3153696,191324224
+xception_1/block10_sepconv3_1/separable_conv2d/depthwise,188 193 194,3153696,2365272
+xception_1/block10_sepconv3_bn_1/batchnorm/add_1;xception_1/block10_sepconv3_1/separable_conv2d;xception_1/block10_sepconv3_bn_1/batchnorm/sub,188 194 195,3153696,191324224
+xception_1/add_8_1/Add,188 195 196,3153696,262808
+xception_1/block11_sepconv1_act_1/Relu,196 197,2102464,0
+xception_1/block11_sepconv1_1/separable_conv2d/depthwise,196 197 198,3153696,2365272
+xception_1/block11_sepconv2_act_1/Relu;xception_1/block11_sepconv1_bn_1/batchnorm/add_1;xception_1/block11_sepconv1_1/separable_conv2d;xception_1/block11_sepconv1_bn_1/batchnorm/sub,196 198 199,3153696,191324224
+xception_1/block11_sepconv2_1/separable_conv2d/depthwise,196 199 200,3153696,2365272
+xception_1/block11_sepconv3_act_1/Relu;xception_1/block11_sepconv2_bn_1/batchnorm/add_1;xception_1/block11_sepconv2_1/separable_conv2d;xception_1/block11_sepconv2_bn_1/batchnorm/sub,196 200 201,3153696,191324224
+xception_1/block11_sepconv3_1/separable_conv2d/depthwise,196 201 202,3153696,2365272
+xception_1/block11_sepconv3_bn_1/batchnorm/add_1;xception_1/block11_sepconv3_1/separable_conv2d;xception_1/block11_sepconv3_bn_1/batchnorm/sub,196 202 203,3153696,191324224
+xception_1/add_9_1/Add,196 203 204,3153696,262808
+xception_1/block12_sepconv1_act_1/Relu,204 205,2102464,0
+xception_1/block12_sepconv1_1/separable_conv2d/depthwise,204 205 206,3153696,2365272
+xception_1/block12_sepconv2_act_1/Relu;xception_1/block12_sepconv1_bn_1/batchnorm/add_1;xception_1/block12_sepconv1_1/separable_conv2d;xception_1/block12_sepconv1_bn_1/batchnorm/sub,204 206 207,3153696,191324224
+xception_1/block12_sepconv2_1/separable_conv2d/depthwise,204 207 208,3153696,2365272
+xception_1/block12_sepconv3_act_1/Relu;xception_1/block12_sepconv2_bn_1/batchnorm/add_1;xception_1/block12_sepconv2_1/separable_conv2d;xception_1/block12_sepconv2_bn_1/batchnorm/sub,204 208 209,3153696,191324224
+xception_1/block12_sepconv3_1/separable_conv2d/depthwise,204 209 210,3153696,2365272
+xception_1/block12_sepconv3_bn_1/batchnorm/add_1;xception_1/block12_sepconv3_1/separable_conv2d;xception_1/block12_sepconv3_bn_1/batchnorm/sub,204 210 211,3153696,191324224
+xception_1/add_10_1/Add,204 211 212,3153696,262808
+xception_1/block13_sepconv1_act_1/Relu,212 213,2102464,0
+xception_1/block13_sepconv1_1/separable_conv2d/depthwise,212 213 214,3153696,2365272
+xception_1/block13_sepconv2_act_1/Relu;xception_1/block13_sepconv1_bn_1/batchnorm/add_1;xception_1/block13_sepconv1_1/separable_conv2d;xception_1/block13_sepconv1_bn_1/batchnorm/sub,212 214 215,3153696,191324224
+xception_1/block13_sepconv2_1/separable_conv2d/depthwise,212 215 216,3153696,2365272
+xception_1/block13_sepconv2_bn_1/batchnorm/add_1;xception_1/block13_sepconv2_1/separable_conv2d;xception_1/block13_sepconv2_bn_1/batchnorm/sub,217 212 216,3581120,269115392
+xception_1/block13_pool_1/MaxPool2d,217 212 218,2939488,921600
+xception_1/batch_normalization_3_1/batchnorm/add_1;xception_1/conv2d_3_1/convolution;xception_1/batch_normalization_3_1/batchnorm/sub,212 218 219,1870432,74547200
+xception_1/add_11_1/Add,218 219 220,1228800,102400
+xception_1/block14_sepconv1_1/separable_conv2d/depthwise,220 221,819200,921600
+xception_1/block14_sepconv1_act_1/Relu;xception_1/block14_sepconv1_bn_1/batchnorm/add_1;xception_1/block14_sepconv1_1/separable_conv2d;xception_1/block14_sepconv1_bn_1/batchnorm/sub,221 222,1024000,157286400
+xception_1/block14_sepconv2_1/separable_conv2d/depthwise,222 223,1228800,1382400
+xception_1/block14_sepconv2_act_1/Relu;xception_1/block14_sepconv2_bn_1/batchnorm/add_1;xception_1/block14_sepconv2_1/separable_conv2d;xception_1/block14_sepconv2_bn_1/batchnorm/sub,224 223,1433600,314572800
+xception_1/avg_pool_1/Mean,224 225,827392,204800
+xception_1/predictions_1/MatMul;xception_1/predictions_1/BiasAdd,225 226,12192,2048000
+StatefulPartitionedCall_1:0,226 227,8000,0
