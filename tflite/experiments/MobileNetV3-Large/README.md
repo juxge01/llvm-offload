@@ -16,16 +16,26 @@ $ python -m tflite_flops mobilenetv3-l.tflite
 ## IREE
 
 ### MLIR
-
+```
 $ cd mlir/
+```
+```
 $ iree-import-tflite ../mobilenetv3-l.tflite -o mobilenetv3-l.mlir
+```
+```
 $ iree-compile mobilenetv3-l.mlir --iree-input-type=tosa --compile-to=flow -o mobilenetv3-l-flow.mlir
+```
+```
 $ iree-compile mobilenetv3-l.mlir --iree-input-type=tosa --compile-to=stream -o mobilenetv3-l-stream.mlir
+```
 
 ### VMFB
-
+```
 $ ./vmfb.sh
+```
+```
 $ ./benckmark_perf.sh
+```
 
 ```
 Benchmark                                      Time             CPU           Iterations UserCounters...
