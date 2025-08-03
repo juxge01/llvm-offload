@@ -4,24 +4,24 @@ mobilenetv3-l.tflite
 
 ### progress:
 
-python ../../tflite_tools.py -i mobilenetv3-l.tflite --plot mobilenetv3-l.png
-python ../../tflite_tools.py -i mobilenetv3-l.tflite --calc-macs --csv=mobilenetv3-l.csv
+$ python ../../tflite_tools.py -i mobilenetv3-l.tflite --plot mobilenetv3-l.png
+$ python ../../tflite_tools.py -i mobilenetv3-l.tflite --calc-macs --csv=mobilenetv3-l.csv
 
-python -m tflite_flops mobilenetv3-l.tflite
+$ python -m tflite_flops mobilenetv3-l.tflite
 
 ## IREE
 
 ### MLIR
 
-cd mlir/
-iree-import-tflite ../mobilenetv3-l.tflite -o mobilenetv3-l.mlir
-iree-compile mobilenetv3-l.mlir --iree-input-type=tosa --compile-to=flow -o mobilenetv3-l-flow.mlir
-iree-compile mobilenetv3-l.mlir --iree-input-type=tosa --compile-to=stream -o mobilenetv3-l-stream.mlir
+$ cd mlir/
+$ iree-import-tflite ../mobilenetv3-l.tflite -o mobilenetv3-l.mlir
+$ iree-compile mobilenetv3-l.mlir --iree-input-type=tosa --compile-to=flow -o mobilenetv3-l-flow.mlir
+$ iree-compile mobilenetv3-l.mlir --iree-input-type=tosa --compile-to=stream -o mobilenetv3-l-stream.mlir
 
 ### VMFB
 
-./vmfb.sh
-./benckmark_perf.sh
+$ ./vmfb.sh
+$ ./benckmark_perf.sh
 
 ```
 Benchmark                                      Time             CPU           Iterations UserCounters...
