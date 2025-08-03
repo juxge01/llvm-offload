@@ -3,11 +3,15 @@
 mobilenetv3-l.tflite
 
 ### progress:
-
+```
 $ python ../../tflite_tools.py -i mobilenetv3-l.tflite --plot mobilenetv3-l.png
+```
+```
 $ python ../../tflite_tools.py -i mobilenetv3-l.tflite --calc-macs --csv=mobilenetv3-l.csv
-
+```
+```
 $ python -m tflite_flops mobilenetv3-l.tflite
+```
 
 ## IREE
 
